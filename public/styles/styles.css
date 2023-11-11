@@ -1,0 +1,59 @@
+
+
+:root {
+    --headColor: #000;
+    --headFontSize: 6rem;
+    --fontSize2: 3.6rem;
+    --fontSize3: 2.2rem;
+    --fontSize4: 1.3rem;
+    --fontSize5: 0.8rem;
+    --headColPrimary: #ebeb00;
+    --headColSecondary: #adad00;
+    --fontFamSecond: 'Agbalumo', sans-serif;
+    --fontFamPrimary: 'Jost', sans-serif; /* for body */    
+}
+.abtSEc{
+    background: rgb(134, 38, 29);
+    background: linear-gradient(90deg, rgba(134,37,29,1) 0%, rgba(140,37,33,1) 100%);
+    position: relative;
+    top: -1.5rem;
+    color: #fff;
+}
+.abtHead {
+    text-align: center;
+    padding-top: 5rem;
+    font-size: var(--fontSize2);
+    color: var(--headColSecondary);
+}
+.abtPara {
+    margin: 2rem 0 0 0;
+    padding: 0 10rem 5rem 10rem;
+    font-size: var(--fontSize4);
+}
+.pointsContainer{
+    background: rgb(134, 38, 29);
+    background: linear-gradient(90deg, rgba(134,37,29,1) 0%, rgba(140,37,33,1) 100%);
+    position: relative;
+    top: -1.5rem;
+    color: #fff;
+    padding: 5rem 0;
+}
+.pointsHead{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: var(--fontSize2);
+}
+.row {
+    display: flex;
+    padding-left: 10rem;
+}
+.col{
+    text-align: center;
+    font-size: var(--fontSize3);
+}
+.branch, .score {
+    padding-left: 10rem;
+}
+.score {
+    margin-top: 1.1rem;
+}

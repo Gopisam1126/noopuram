@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@500&display=swap');
+:root {
+    --headColor: #000;
+    --headFontSize: 6rem;
+    --fontSize2: 3.6rem;
+    --fontSize3: 2.2rem;
+    --fontSize4: 1.3rem;
+    --fontSize5: 0.8rem;
+    --headColPrimary: #ebeb00;
+    --headColSecondary: #adad00;
+    --fontFamSecond: 'Agbalumo', sans-serif;
+    --mal: 'Noto Sans Malayalam', sans-serif;
+    --fontFamPrimary: 'Jost', sans-serif; /* for body */    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerContainer{
+    background: url(/images/theyyam_edit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+    color: var(--headColSecondary);
+    padding: 25rem 0 0 35rem;
+}
+.eventHead{
+    font-size: var(--headFontSize);
+    /* font-family: 'Titan One', sans-serif; */
+    font-family: var(--fontFamSecond);
+    /* font-family: var(--mal); */
+    font-weight: 800;
+}
+.subPara{
+    font-size: var(--fontSize4);
+}
+
+/* Navbar */
+
+.navbar {
+    position: relative;
+    top: -2.5rem;
+    left: 60rem;
+    width: fit-content;
+    font-family: var(--fontPrimary);
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s all linear;
+}
+.navbar ul a:hover{
+    color: #adad00;
+    transform: scale(1.01);
+}
+.navli{
+    margin-left: 7rem;
+    font-size: var(--fontSize4);
+    list-style: none;
+}

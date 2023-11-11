@@ -1,0 +1,67 @@
+<%- include('partials/header.ejs') %>
+<body>
+    <div class="main">
+        <div class="abtSEc">
+            <h2 class="abtHead">
+                About
+            </h2>
+            <p class="abtPara">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus obcaecati expedita voluptas ad enim! Quam, impedit quae! Ipsa iste facilis architecto repellendus ut saepe, cumque totam accusamus magni delectus consequatur quam libero dignissimos necessitatibus voluptas alias iure sunt doloribus laboriosam? Veniam ab eius reprehenderit saepe similique atque iste sint eum dolore? Deleniti dolores alias aliquam amet sapiente hic nulla dicta eum ut voluptatem dolorem eveniet voluptate nobis eius, quis nam. Modi nisi libero dicta atque, magnam nesciunt neque natus saepe sequi, blanditiis facilis fuga velit temporibus ullam suscipit, quae deserunt adipisci excepturi distinctio voluptates repellendus consequuntur asperiores? Assumenda, deserunt molestias!
+            </p>
+        </div>
+        <div class="pointsContainer">
+            <h2 class="pointsHead">Current Points</h2>
+            <div class="row">
+                <div class="col">
+                    <h3 class="branch mech">Mech</h3>
+                    <p class="score">
+                        <% if (mechScore) { %>
+                            <span><%= mechScore %></span>
+                        <% } %>
+                    </p>
+                </div>
+                <div class="col">
+                    <h3 class="branch civil">Civil</h3>
+                    <p class="score">
+                        <% if (civilScore) { %>
+                            <span><%= civilScore %></span>
+                        <% } %>
+                    </p>
+                </div>
+                <div class="col">
+                    <h3 class="branch ec">EC</h3>
+                    <p class="score">
+                        <% if (ecScore) { %>
+                            <span><%= ecScore %></span>
+                        <% } %>
+                    </p>
+                </div>
+                <div class="col">
+                    <h3 class="branch EEE">EEE</h3>
+                    <p class="score">
+                        <% if (eeeScore) { %>
+                            <span><%= eeeScore %></span>
+                        <% } %>
+                    </p>
+                </div>
+                <div class="col">
+                    <h3 class="branch cs">CS</h3>
+                    <p class="score">
+                        <% if (csScore) { %>
+                            <span><%= csScore %></span>
+                        <% } %>
+                    </p>
+                </div>
+                <div class="col">
+                    <h3 class="branch ic">IC</h3>
+                    <p class="score">
+                        <% if (icScore) { %>
+                            <span><%= icScore %></span>
+                        <% } %>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
