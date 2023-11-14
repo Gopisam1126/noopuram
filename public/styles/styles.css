@@ -12,30 +12,17 @@
     --fontFamPrimary: 'Jost', sans-serif; /* for body */
     --abtHeadFam: 'Poppins', sans-serif;   
 }
-.abtSEc{
-    background: rgb(134, 38, 29);
-    background: linear-gradient(90deg, rgba(134,37,29,1) 0%, rgba(140,37,33,1) 100%);
-    position: relative;
-    top: 0.0rem;
-    color: #fff;
-}
-.abtHead {
-    text-align: center;
-    padding-top: 5rem;
-    font-size: var(--fontSize2);
-    color: var(--headColSecondary);
-    font-family: var(--abtHeadFam);
-}
-.abtPara {
+/* .abtPara {
     margin: 2rem 0 0 0;
     padding: 0 10rem 5rem 10rem;
     font-size: var(--fontSize4);
-}
+} */
 .pointsContainer{
-    background: rgb(134, 38, 29);
-    background: linear-gradient(90deg, rgba(134,37,29,1) 0%, rgba(140,37,33,1) 100%);
+    /* background: rgb(134, 38, 29);
+    background: linear-gradient(90deg, rgba(134,37,29,1) 0%, rgba(140,37,33,1) 100%); */
+    background: transparent;
     position: relative;
-    top: -2.0rem;
+    top: -25.0rem;
     color: #fff;
     padding: 5rem 0;
 }

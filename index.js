@@ -26,9 +26,25 @@ app.get("/", (req, res) => {
     });
 });
 
-app.get("/evenmt", (req, res) => {
-    res.render("evenmt.ejs");
-})
+app.get("/events", (req, res) => {
+    res.render("events.ejs")
+});
+
+app.get("/gallery", (req, res) => {
+    res.render("gallery.ejs")
+});
+
+app.get("/team", (req, res) => {
+    res.render("team.ejs")
+});
+
+app.get("/prices", (req, res) => {
+    res.render("prices.ejs")
+});
+
+app.get("/proshows", (req, res) => {
+    res.render("proshows.ejs")
+});
 
 app.get("/admin", (req, res) => {
     res.render("admin.ejs");

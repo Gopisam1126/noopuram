@@ -22,12 +22,18 @@
     background: url("/images/theyyam_edit.png");
     background-position: center;
     background-size: cover;
-    width: auto;
-}
-canvas{
-    /* background: black; */
+    /* width: auto; */
     width: 100vw;
-    height: 100vh;
+    height: 60.9rem;
+
+}
+/* canvas{ */
+    /* background: black; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+/* } */
+body{
+    overflow: hidden;
 }
 input{
     width: 250px;
@@ -49,7 +55,7 @@ input{
     position: relative;
     width: fit-content;
     top: -55rem;
-    left: 65rem;
+    left: 60rem;
     /* color: #fff; */
 }
 .navA{
