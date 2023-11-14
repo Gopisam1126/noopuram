@@ -47,6 +47,7 @@ input{
 .navContainer{
     display: flex;
     position: relative;
+    width: fit-content;
     top: -55rem;
     left: 65rem;
     /* color: #fff; */
