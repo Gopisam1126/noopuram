@@ -3,57 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/styles.css">
     <title>Noopuram</title>
 </head>
 <body>
-    <div class="mainHeadContainer" onload="delayedHead()">
-        <div class="headerContainer">
-            <h1 class="eventHead">
-                <span class="headLetters" data-delay="200">N</span>
-                <span class="headLetters" data-delay="500">O</span>
-                <span class="headLetters" data-delay="800">O</span>
-                <span class="headLetters" data-delay="1100">P</span>
-                <span class="headLetters" data-delay="1400">U</span>
-                <span class="headLetters" data-delay="1700">R</span>
-                <span class="headLetters" data-delay="">A</span>
-                <span class="headLetters" data-delay="">M</span>
-            </h1>
-            <p class="subPara">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, fuga? <br> Lorem ipsum dolor sit amet.
-            </p>
-        </div>
-        <div class="navbar">
-            <ul>
-                <a href="" class="navA">
-                    <li class="navli li1">Home</li>
-                </a>
-                <a href="" class="navA">
-                    <li class="navli">About</li>
-                </a>
-                <a href="" class="navA">
-                    <li class="navli">Prices</li>
-                </a>
-                <a href="" class="navA">
-                    <li class="navli">Proshows</li>
-                </a>
-                <a href="" class="navA">
-                    <li class="navli">Panel</li>
-                </a>
-            </ul>
-        </div>
+    <div class="headContainer">
+        <!-- Edit the text with whatever you want :) --> 
+        <!-- Works with emojis too ! -->
+        <canvas id="scene"></canvas>
+        <input id="copy" hidden="text" value="NOOPURAM'23" />
+    </div>
+    <!-- navbar -->
+    <div class="navContainer">
+        <a href="" class="navA">
+            <li class="navLi">Home</li>
+        </a>
+        <a href="views/evenmt.ejs" class="navA">
+            <li class="navLi">Event</li>
+        </a>
+        <a href="" class="navA">
+            <li class="navLi">Proshows</li>
+        </a>
+        <a href="" class="navA">
+            <li class="navLi">Team</li>
+        </a>
+        <a href="" class="navA">
+            <li class="navLi">Prices</li>
+        </a>
     </div>
 </body>
-<script>
-    // const delayedContent = document.querySelectorAll(".headLetters");
-    // // console.log(delayedContent);
-    // delayedContent.forEach((letter) => {
-    //     const delay = parseInt(letter.getAttribute("data-delay"));
-    //     setTimeout(() => {
-    //         letter.style.opacity = 1;
-    //         letter.style.transform = translateY(-1);
-    //     }, delay)
-    // });
-</script>
 </html>

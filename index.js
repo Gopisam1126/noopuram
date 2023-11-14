@@ -26,6 +26,10 @@ app.get("/", (req, res) => {
     });
 });
 
+app.get("/evenmt", (req, res) => {
+    res.render("evenmt.ejs");
+})
+
 app.get("/admin", (req, res) => {
     res.render("admin.ejs");
 });
