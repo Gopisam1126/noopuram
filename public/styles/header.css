@@ -11,7 +11,6 @@
     --headColPrimary: #ebeb00;
     --headColSecondary: #adad00;
     --fontFamSecond: 'Agbalumo', sans-serif;
-    --mal: 'Noto Sans Malayalam', sans-serif;
     --fontFamPrimary: 'Jost', sans-serif; /* for body */    
 }
 * {
@@ -30,13 +29,12 @@
 }
 .eventHead{
     font-size: var(--headFontSize);
-    /* font-family: 'Titan One', sans-serif; */
     font-family: var(--fontFamSecond);
-    /* font-family: var(--mal); */
     font-weight: 800;
 }
 .subPara{
     font-size: var(--fontSize4);
+    font-family: var(--fontFamPrimary);
 }
 
 /* Navbar */
@@ -46,7 +44,7 @@
     top: -2.5rem;
     left: 60rem;
     width: fit-content;
-    font-family: var(--fontPrimary);
+    font-family: var(--fontFamPrimary);
 }
 .navbar ul {
     display: flex;

@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root {
     --headColor: #000;
     --headFontSize: 6rem;
@@ -10,13 +9,14 @@
     --headColPrimary: #ebeb00;
     --headColSecondary: #adad00;
     --fontFamSecond: 'Agbalumo', sans-serif;
-    --fontFamPrimary: 'Jost', sans-serif; /* for body */    
+    --fontFamPrimary: 'Jost', sans-serif; /* for body */
+    --abtHeadFam: 'Poppins', sans-serif;   
 }
 .abtSEc{
     background: rgb(134, 38, 29);
     background: linear-gradient(90deg, rgba(134,37,29,1) 0%, rgba(140,37,33,1) 100%);
     position: relative;
-    top: -1.5rem;
+    top: -2.0rem;
     color: #fff;
 }
 .abtHead {
@@ -24,6 +24,7 @@
     padding-top: 5rem;
     font-size: var(--fontSize2);
     color: var(--headColSecondary);
+    font-family: var(--abtHeadFam);
 }
 .abtPara {
     margin: 2rem 0 0 0;
@@ -34,7 +35,7 @@
     background: rgb(134, 38, 29);
     background: linear-gradient(90deg, rgba(134,37,29,1) 0%, rgba(140,37,33,1) 100%);
     position: relative;
-    top: -1.5rem;
+    top: -2.0rem;
     color: #fff;
     padding: 5rem 0;
 }
@@ -42,6 +43,8 @@
     text-align: center;
     margin-bottom: 3rem;
     font-size: var(--fontSize2);
+    color: var(--headColSecondary);
+    font-family: var(--abtHeadFam);
 }
 .row {
     display: flex;
@@ -50,6 +53,7 @@
 .col{
     text-align: center;
     font-size: var(--fontSize3);
+    font-family: var(--fontFamPrimary);
 }
 .branch, .score {
     padding-left: 10rem;
