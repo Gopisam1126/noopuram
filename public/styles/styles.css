@@ -12,14 +12,7 @@
     --fontFamPrimary: 'Jost', sans-serif; /* for body */
     --abtHeadFam: 'Poppins', sans-serif;   
 }
-/* .abtPara {
-    margin: 2rem 0 0 0;
-    padding: 0 10rem 5rem 10rem;
-    font-size: var(--fontSize4);
-} */
 .pointsContainer{
-    /* background: rgb(134, 38, 29);
-    background: linear-gradient(90deg, rgba(134,37,29,1) 0%, rgba(140,37,33,1) 100%); */
     background: transparent;
     position: relative;
     top: -25.0rem;
@@ -48,3 +41,21 @@
 .score {
     margin-top: 1.1rem;
 }
+
+/* Resposive */
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .row{
+        display: block;
+        position: absolute;
+        top: 15rem;
+        left: -5rem;
+    }
+    .col{
+        margin-top: 3rem;
+    }
+  }

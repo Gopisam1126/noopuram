@@ -56,17 +56,28 @@ input{
     width: fit-content;
     top: -55rem;
     left: 60rem;
+    font-family: var(--fontFamPrimary);
     /* color: #fff; */
 }
 .navA{
     color: #fff;
     text-decoration: none;
+    transition: 0.2s all linear;
 }
-/* .navA{
-
-} */
+.navA:hover{
+    color: var(--headColSecondary);
+}
 .navLi{
     font-size: var(--fontSize4);
     list-style: none;
     padding-left: 5rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .navContainer {
+        display: none;
+    }
+    .headContainer{
+        height: 110rem;
+    }
+  }

@@ -13,6 +13,62 @@
         <!-- Works with emojis too ! -->
         <canvas id="scene"></canvas>
         <input id="copy" hidden="text" value="NOOPURAM'23" />
+
+
+        <div class="pointsContainer">
+          <h2 class="pointsHead">Current Points</h2>
+          <div class="row">
+              <div class="col">
+                  <h3 class="branch mech">Mech</h3>
+                  <p class="score">
+                      <% if (mechScore) { %>
+                          <span><%= mechScore %></span>
+                      <% } %>
+                  </p>
+              </div>
+              <div class="col">
+                  <h3 class="branch civil">Civil</h3>
+                  <p class="score">
+                      <% if (civilScore) { %>
+                          <span><%= civilScore %></span>
+                      <% } %>
+                  </p>
+              </div>
+              <div class="col">
+                  <h3 class="branch ec">EC</h3>
+                  <p class="score">
+                      <% if (ecScore) { %>
+                          <span><%= ecScore %></span>
+                      <% } %>
+                  </p>
+              </div>
+              <div class="col">
+                  <h3 class="branch EEE">EEE</h3>
+                  <p class="score">
+                      <% if (eeeScore) { %>
+                          <span><%= eeeScore %></span>
+                      <% } %>
+                  </p>
+              </div>
+              <div class="col">
+                  <h3 class="branch cs">CS</h3>
+                  <p class="score">
+                      <% if (csScore) { %>
+                          <span><%= csScore %></span>
+                      <% } %>
+                  </p>
+              </div>
+              <div class="col">
+                  <h3 class="branch ic">IC</h3>
+                  <p class="score">
+                      <% if (icScore) { %>
+                          <span><%= icScore %></span>
+                      <% } %>
+                  </p>
+              </div>
+          </div>
+      </div>
+
     </div>
     <!-- navbar -->
     <div class="navContainer">
@@ -34,72 +90,10 @@
         <a href="/gallery" class="navA">
             <li class="navLi">Gallery</li>
         </a>
-        <!-- <form action="/get-page" method="get">
-          <button class="navBtn">Home</button>
-          <button class="navBtn">About</button>
-          <button class="navBtn">Events</button>
-          <button class="navBtn">Proshows</button>
-          <button class="navBtn">GAllery</button>
-          <button class="navBtn">Prices</button>
-          <button class="navBtn">Team</button>
-        </form> -->
     </div>
 
     <!--  -->
 
-    <div class="pointsContainer">
-        <h2 class="pointsHead">Current Points</h2>
-        <div class="row">
-            <div class="col">
-                <h3 class="branch mech">Mech</h3>
-                <p class="score">
-                    <% if (mechScore) { %>
-                        <span><%= mechScore %></span>
-                    <% } %>
-                </p>
-            </div>
-            <div class="col">
-                <h3 class="branch civil">Civil</h3>
-                <p class="score">
-                    <% if (civilScore) { %>
-                        <span><%= civilScore %></span>
-                    <% } %>
-                </p>
-            </div>
-            <div class="col">
-                <h3 class="branch ec">EC</h3>
-                <p class="score">
-                    <% if (ecScore) { %>
-                        <span><%= ecScore %></span>
-                    <% } %>
-                </p>
-            </div>
-            <div class="col">
-                <h3 class="branch EEE">EEE</h3>
-                <p class="score">
-                    <% if (eeeScore) { %>
-                        <span><%= eeeScore %></span>
-                    <% } %>
-                </p>
-            </div>
-            <div class="col">
-                <h3 class="branch cs">CS</h3>
-                <p class="score">
-                    <% if (csScore) { %>
-                        <span><%= csScore %></span>
-                    <% } %>
-                </p>
-            </div>
-            <div class="col">
-                <h3 class="branch ic">IC</h3>
-                <p class="score">
-                    <% if (icScore) { %>
-                        <span><%= icScore %></span>
-                    <% } %>
-                </p>
-            </div>
-        </div>
-    </div>
 </body>
 <script>
     var canvas = document.querySelector("#scene"),
@@ -109,13 +103,13 @@
   mouse = {x:0,y:0},
   radius = 1;
 
-var colors = ["#FFF","#FFF", "#FFF","#FFF", "#FFF"];
+var colors = ["#fff","#fff", "#fff","#fff", "#fff"];
 
 var copy = document.querySelector("#copy");
 
 var ww = canvas.width = window.innerWidth;
 var wh = canvas.height = window.innerHeight;
-if(ww>550){
+// if(ww > 550){
 function Particle(x,y){
   this.x =  Math.random()*ww;
   this.y =  Math.random()*wh;
@@ -233,7 +227,7 @@ window.addEventListener("click", onMouseClick);
 window.addEventListener("touchend", onTouchEnd);
 initScene();
 requestAnimationFrame(render);
-}
+// }
 
 </script>
 </html>
