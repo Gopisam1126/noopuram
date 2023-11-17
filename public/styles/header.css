@@ -22,16 +22,10 @@
     background: url("/images/theyyam_edit.png");
     background-position: center;
     background-size: cover;
-    /* width: auto; */
     width: 100vw;
     height: 60.9rem;
 
 }
-/* canvas{ */
-    /* background: black; */
-    /* width: 100vw; */
-    /* height: 100vh; */
-/* } */
 body{
     overflow: hidden;
 }

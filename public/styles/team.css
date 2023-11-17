@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --headColor: #000;
+    --headFontSize: 6rem;
+    --fontSize2: 3.6rem;
+    --fontSize3: 2.2rem;
+    --fontSize4: 1.3rem;
+    --fontSize5: 0.8rem;
+    --headColPrimary: #ebeb00;
+    --headColSecondary: #adad00;
+    --fontFamSecond: 'Agbalumo', sans-serif;
+    --fontFamPrimary: 'Jost', sans-serif; /* for body */
+    --abtHeadFam: 'Poppins', sans-serif;   
+}
+.teamContainer{
+    color: #fff;
+    margin-top: -15rem;
+    text-align: center;
+    font-family: var(--fontFamPrimary);
+}
+.teamHead{
+    font-size: var(--fontSize2);
+    text-decoration: underline;
+}
+.members{
+    margin-top: 5rem;
+}
+.member{
+    margin-top: 3rem;
+}
+.mem{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+.name{
+    margin-top: 1.5rem;
+    font-weight: 900;
+    font-size: var(--fontSize3);
+}
+.phNum{
+    margin-top: 0.7rem;
+    font-size: var(--fontSize4);
+}
+.headContainer{
+    height: 180rem;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 600px) {
+    body{
+        overflow-y: scroll;
+    }
+    .members{
+        display: grid;
+        grid-template-columns: 65rem 40rem;
+    }
+  }
