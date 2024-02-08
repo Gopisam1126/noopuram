@@ -27,7 +27,8 @@
 
 }
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 input{
     width: 250px;

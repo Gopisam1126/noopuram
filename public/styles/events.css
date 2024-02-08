@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --headColor: #000;
+    --headFontSize: 6rem;
+    --fontSize2: 3.6rem;
+    --fontSize3: 2.2rem;
+    --fontSize4: 1.3rem;
+    --fontSize5: 0.8rem;
+    --headColPrimary: #ebeb00;
+    --headColSecondary: #adad00;
+    --fontFamSecond: 'Agbalumo', sans-serif;
+    --fontFamPrimary: 'Jost', sans-serif; /* for body */
+    --abtHeadFam: 'Poppins', sans-serif;   
+}
+.eventsListContainer{
+    padding-left: 10rem;
+    padding-top: 5rem;
+    background-color: #000;
+    color: #fff;
+}
+.eventHead{
+    display: flex;
+}
+.headItem{
+    margin-left: 25rem;
+    margin-top: rem;
+}
+.listHr {
+    margin-top: 2rem;
+    margin-right: 12rem;
+    margin-bottom: 2rem;
+}
