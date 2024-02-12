@@ -19,7 +19,7 @@
 .eventsListContainer{
     padding-left: 10rem;
     padding-top: 5rem;
-    background-color: #000;
+    background-color: #9B4444;
     color: #fff;
 }
 .eventHead{
@@ -33,4 +33,7 @@
     margin-top: 2rem;
     margin-right: 12rem;
     margin-bottom: 2rem;
+}
+.subTh{
+    margin-left: 3rem;
 }
