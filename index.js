@@ -39,7 +39,9 @@ app.get("/team", (req, res) => {
 });
 
 app.get("/prices", (req, res) => {
-    res.render("prices.ejs")
+    res.render("prices.ejs", {
+        selectedValue,
+    });
 });
 
 app.get("/proshows", (req, res) => {
@@ -72,6 +74,18 @@ app.post("/update", (req, res) => {
 
     res.redirect("/admin");
 });
+
+app.post("/updatePrice", (req, res) => {
+    const selectedValue = req.body.selectElement;
+    const fp = req.body.firstPrice;
+    const sp = req.body.secondPrice;
+    const tp = req.body.thirdPrice;
+    console.log(fp);
+    console.log(sp);
+    console.log(tp);
+    console.log(selectedValue);
+    res.redirect("/admin");
+})
 
 app.listen(port, () => {
     console.log(`server running on port ${port}`);

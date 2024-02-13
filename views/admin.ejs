@@ -7,6 +7,12 @@
 </head>
 <body>
     <div class="mainAdmin">
+        <div class="mainSec">
+            <h2 class="updateScr">Update Score</h2>
+            <p class="subPara">
+                only submit after filling all the inputs.
+            </p>
+        </div>
         <form action="/update" method="post">
             <label for="mech" id="mechLabel">Mech</label>
             <input type="number" name="mech" id="mech"><br><br>
@@ -28,6 +34,41 @@
 
             <button type="submit">submit</button>
         </form>
+
+        <div class="priceUpdate">
+            <h2 class="updatePrice">Update Prices Page</h2>
+            <p class="subPara">
+                only submit after filling all the inputs.
+            </p>
+            <br><hr>
+            <form action="/updatePrice" method="post">
+                <label for="selectElement">Select Event : </label>
+                <select name="selectElement" id="selectElement">
+                    <option value="Collage">Collage</option>
+                    <option value="Poster making">Poster making</option>
+                    <option value="Pencil drawing">Pencil drawing
+                    </option>
+                    <option value="Cartoon">Cartoon
+                    </option>
+                    <option value="water color">water color</option>
+                    <option value="Face painting">Face painting</option>
+                    <option value="Clay modelling">Clay modelling</option>
+                    <option value="Spot photography">Spot photography</option>
+                    <option value="Oil painting">Oil painting</option>
+                    <option value="Embroidery">Embroidery</option>
+                    <option value="Wall painting">Wall painting</option>
+                    <option value="option1">Option 1</option>
+                </select><br><br>
+                <label for="1st">First Price</label>
+                <input type="text" name="firstPrice" id="fp"><br><br>
+                <label for="2nd">Second Price</label>
+                <input type="text" name="secondPrice" id="sp"><br><br>
+                <label for="3rd">Third Price</label>
+                <input type="text" name="thirdPrice" id="tp"><br><br>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+
     </div>
 </body>
 </html>
