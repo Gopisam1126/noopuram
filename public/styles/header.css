@@ -22,7 +22,7 @@
     background: url("/images/theyyam_edit.png");
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    /* width: 100vw; */
     height: 62.9rem;
 
 }
@@ -48,31 +48,38 @@ input{
 .navContainer{
     display: flex;
     position: relative;
+    top: -120%;
+    left: 60%;
     width: fit-content;
-    top: -55rem;
-    left: 60rem;
-    font-family: var(--fontFamPrimary);
+    font-size: var(--fontSize4);
     /* color: #fff; */
 }
 .navA{
     color: #fff;
-    text-decoration: none;
-    transition: 0.2s all linear;
-}
-.navA:hover{
-    color: var(--headColSecondary);
-}
-.navLi{
-    font-size: var(--fontSize4);
     list-style: none;
-    padding-left: 5rem;
+    text-decoration: none;
+    padding: 0 3rem 0 0;
+    font-family: var(--abtHeadFam);
+}
+.navMenu{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
+.closeBtn{
+    color: #fff;
+    visibility: hidden;
+}
+.showBtn{
+    color: #fff;
+    visibility: visible;
 }
 
+/* responsive */
+
 @media only screen and (max-width: 600px) {
-    .navContainer {
-        display: none;
+    .navA {
+        color: aqua;
     }
-    .headContainer{
-        height: 110rem;
-    }
-  }
+}
