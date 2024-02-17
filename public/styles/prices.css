@@ -1,3 +1,16 @@
+:root {
+    --headColor: #000;
+    --headFontSize: 6rem;
+    --fontSize2: 3.6rem;
+    --fontSize3: 2.2rem;
+    --fontSize4: 1.3rem;
+    --fontSize5: 0.8rem;
+    --headColPrimary: #ebeb00;
+    --headColSecondary: #adad00;
+    --fontFamSecond: 'Agbalumo', sans-serif;
+    --fontFamPrimary: 'Jost', sans-serif; /* for body */
+    --abtHeadFam: 'Poppins', sans-serif;   
+}
 .headContainer2{
     background: url("/images/theyyam_edit.png");
     background-position: center;
@@ -14,4 +27,19 @@
     width: fit-content;
     font-size: var(--fontSize4);
     /* color: #fff; */
+}
+.priceContainer{
+    padding: 0 0 0 12rem;
+    font-family: var(--fontFamPrimary);
+}
+.winnersHead{
+    text-align: center;
+    color: var(--headColPrimary);
+    transform: translate(-4%);
+    margin: 0 0 5rem 0;
+    font-size: var(--fontSize2);
+}
+.eventHead{
+    font-size: var(--fontSize3);
+    color: #fff;
 }
