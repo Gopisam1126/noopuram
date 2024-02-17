@@ -42,3 +42,28 @@
 .subTh{
     margin-left: 3rem;
 }
+.events{
+    padding-left: 20px;
+}
+
+.events h2{
+    font-size: var(--fontSize3);
+    font-family: var(--fontFamPrimary);
+    color: var(--headColPrimary);
+    padding-bottom: 20px;
+}
+.events ul{
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.events li{
+    font-size: var(--fontSize4);
+    font-family: var(--fontFamPrimary);
+    color: var(--headColPrimary);
+    flex: 33.33%;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
