@@ -47,9 +47,10 @@ input{
 }
 .navContainer{
     display: flex;
-    position: relative;
-    top: -120%;
-    left: 60%;
+    position: fixed;
+    padding-top: 30px;
+    /* top: -120%; */
+    left: 57%;
     width: fit-content;
     font-size: var(--fontSize4);
     /* color: #fff; */
@@ -75,7 +76,15 @@ input{
     color: #fff;
     visibility: visible;
 }
-
+.bgimage{
+    background: url("/images/theyyam_edit.png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 62.9rem;
+    position: fixed;
+    z-index: -1;
+}
 /* responsive */
 
 @media only screen and (max-width: 600px) {

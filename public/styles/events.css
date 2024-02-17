@@ -24,6 +24,11 @@
 }
 .eventHead{
     display: flex;
+    justify-content: center;
+    margin-top: -18%;
+    font-size: var(--fontSize2);
+    color: var(--headColSecondary);
+    font-family: var(--abtHeadFam);
 }
 .headItem{
     margin-left: 25rem;
