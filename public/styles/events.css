@@ -49,7 +49,7 @@
 .events h2{
     font-size: var(--fontSize3);
     font-family: var(--fontFamPrimary);
-    color: var(--headColPrimary);
+    color: #fff;
     padding-bottom: 20px;
 }
 .events ul{
@@ -62,7 +62,7 @@
 .events li{
     font-size: var(--fontSize4);
     font-family: var(--fontFamPrimary);
-    color: var(--headColPrimary);
+    color: #fff;
     flex: 33.33%;
     padding-bottom: 20px;
     padding-right: 10px;
