@@ -13,6 +13,10 @@ var icScore = 0;
 var eeeScore = 0;
 var ecScore = 0;
 var csScore = 0;
+let selectedValue;
+let fp;
+let sp;
+let tp;
 // console.log(currentScore);
 // console.log(arr[0]);
 app.get("/", (req, res) => {
@@ -39,7 +43,12 @@ app.get("/team", (req, res) => {
 });
 
 app.get("/prices", (req, res) => {
-    res.render("prices.ejs");
+    res.render("prices.ejs", {
+        selectedValue: selectedValue,
+        fp: fp,
+        sp: sp,
+        tp: tp,
+    });
 });
 
 app.get("/proshows", (req, res) => {
@@ -53,16 +62,10 @@ app.get("/admin", (req, res) => {
 app.post("/update", (req, res) => {
     var newScoreMech = parseInt(req.body.mech, 10);
     var newScoreCivil = parseInt(req.body.civil, 10);
-    // console.log(newScoreCivil);
     var newScoreEC = parseInt(req.body.ec, 10);
-    // console.log(newScoreEC);
     var newScoreEEE = parseInt(req.body.eee, 10);
-    // console.log(newScoreEEE);
     var newScoreCS = parseInt(req.body.cs, 10);
-    // console.log(newScoreCS);
     var newScoreIC = parseInt(req.body.ic, 10);
-    // console.log(newScoreIC);
-    // console.log(newScore);
     mechScore = newScoreMech;
     civilScore = newScoreCivil;
     icScore = newScoreIC;
@@ -74,15 +77,15 @@ app.post("/update", (req, res) => {
 });
 
 app.post("/updatePrice", (req, res) => {
-    const selectedValue = req.body.selectElement;
-    const fp = req.body.firstPrice;
-    const sp = req.body.secondPrice;
-    const tp = req.body.thirdPrice;
+    var selectedValue = req.body.selectElement;
+    var fp = req.body.firstPrice;
+    var sp = req.body.secondPrice;
+    var tp = req.body.thirdPrice;
     console.log(fp);
     console.log(sp);
     console.log(tp);
     console.log(selectedValue);
-    res.redirect("/admin");
+    res.redirect("/prices");
 })
 
 app.listen(port, () => {
