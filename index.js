@@ -39,9 +39,7 @@ app.get("/team", (req, res) => {
 });
 
 app.get("/prices", (req, res) => {
-    res.render("prices.ejs", {
-        selectedValue,
-    });
+    res.render("prices.ejs");
 });
 
 app.get("/proshows", (req, res) => {

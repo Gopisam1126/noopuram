@@ -3,43 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/styles/prices.css">
-    <link rel="stylesheet" href="/public/styles/header.css">
-    <link rel="stylesheet" href="/public/styles/styles.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/prices.css">
     <title>Prices</title>
 </head>
 <body>
-    <section class="pMainSecContaier">
-        <div class="pmainSec">
-            <canvas id="scene"></canvas>
-            <input id="copy" hidden="text" value="NOOPURAM'23" />
+    <div class="headContainer2">
+        <canvas id="scene"></canvas>
+        <input id="copy" hidden="text" value="NOOPURAM'23" />
+        <!-- navbar -->
+        <div class="pnavContainer show">
+          <a href="/" class="navA">
+              <li class="navLi" style="color: #adad00;">Home</li>
+          </a>
+          <a href="/events" class="navA">
+              <li class="navLi">Event</li>
+          </a>
+          <a href="/proshows" class="navA">
+              <li class="navLi">Proshows</li>
+          </a>
+          <a href="/team" class="navA">
+              <li class="navLi">Team</li>
+          </a>
+          <a href="/prices" class="navA">
+              <li class="navLi">Prices</li>
+          </a>
+          <a href="/gallery" class="navA">
+              <li class="navLi">Gallery</li>
+          </a>
 
-
-            <div class="navContainer show">
-                <a href="/" class="navA">
-                    <li class="navLi" style="color: #adad00;">Home</li>
-                </a>
-                <a href="/events" class="navA">
-                    <li class="navLi">Event</li>
-                </a>
-                <a href="/proshows" class="navA">
-                    <li class="navLi">Proshows</li>
-                </a>
-                <a href="/team" class="navA">
-                    <li class="navLi">Team</li>
-                </a>
-                <a href="/prices" class="navA">
-                    <li class="navLi">Prices</li>
-                </a>
-                <a href="/gallery" class="navA">
-                    <li class="navLi">Gallery</li>
-                </a>
-                
-                <i class="fa-solid fa-bars navMenu"></i>
-                <i class="fa-solid fa-xmark xShow closeBtn"></i>
-            
-              </div>
+          <i class="fa-solid fa-bars navMenu"></i>
+          <i class="fa-solid fa-xmark xShow closeBtn"></i>
+      
         </div>
-    </section>
+
+        <!-- prices section -->
+
+    <div class="priceContainer">
+        <h2 class="winnersHead">
+          Winners (on stage events)
+        </h2>
+        <div class="winDiv">
+          <h4 class="eventHead">
+            1. Cartoon
+          </h4>
+          <div class="winners">
+            <!-- first price -->
+            <div class="one">
+              <p class="first"><%=  %></p>
+              <p class="fPrice">1<sup>st</sup> Price</p>
+            </div>
+            <!-- second price -->
+            <div class="two">
+              <p class="first"><%=  %></p>
+              <p class="fPrice">2<sup>nd</sup> Price</p>
+            </div>
+            <!-- third price -->
+            <div class="three">
+              <p class="first"><%=  %></p>
+              <p class="fPrice">3<sup>rd</sup> Price</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+    </div>
 </body>
+
+<script>
+    var canvas = document.querySelector("#scene"),
+  ctx = canvas.getContext("2d"),
+  particles = [],
+  amount = 0,
+  mouse = {x:0,y:0},
+  radius = 1;
+
+var colors = ["#fff","#fff", "#fff","#fff", "#fff"];
+
+var copy = document.querySelector("#copy");
+
+var ww = canvas.width = window.innerWidth;
+var wh = canvas.height = window.innerHeight;
+// if(ww > 550){
+function Particle(x,y){
+  this.x =  Math.random()*ww;
+  this.y =  Math.random()*wh;
+  this.dest = {
+    x : x,
+    y: y
+  };
+  if(ww<480){
+    this.r=0.4;
+  }
+  this.r =  Math.random()+ 2;
+  this.vx = (Math.random()-0.5)*50;
+  this.vy = (Math.random()-0.5)*50;
+  this.accX = 0;
+  this.accY = 0;
+  this.friction = Math.random()*0.008 + 0.94;
+
+  this.color = colors[Math.floor(Math.random()*6)];
+}
+
+Particle.prototype.render = function() {
+
+
+  this.accX = (this.dest.x - this.x)/1000;
+  this.accY = (this.dest.y - this.y)/1000;
+  this.vx += this.accX;
+  this.vy += this.accY;
+  this.vx *= this.friction;
+  this.vy *= this.friction;
+
+  this.x += this.vx;
+  this.y +=  this.vy;
+
+  ctx.fillStyle = this.color;
+  ctx.beginPath();
+  ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
+  ctx.fill();
+
+  var a = this.x - mouse.x;
+  var b = this.y - mouse.y;
+
+  var distance = Math.sqrt( a*a + b*b );
+  if(distance<(radius*70)){
+    this.accX = (this.x - mouse.x)/100;
+    this.accY = (this.y - mouse.y)/100;
+    this.vx += this.accX;
+    this.vy += this.accY;
+  }
+
+}
+
+function onMouseMove(e){
+  mouse.x = e.clientX;
+  mouse.y = e.clientY;
+}
+
+function onTouchMove(e){
+  if(e.touches.length > 0 ){
+    mouse.x = e.touches[0].clientX;
+    mouse.y = e.touches[0].clientY;
+  }
+}
+
+function onTouchEnd(e){
+mouse.x = -9999;
+mouse.y = -9999;
+}
+
+function initScene(){
+  ww = canvas.width = window.innerWidth;
+  wh = canvas.height = window.innerHeight;
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.font = "bold "+(ww/10)+"px sans-serif";
+  ctx.textAlign = "center";
+  ctx.fillText(copy.value, ww/2.2, wh/2);
+
+  var data  = ctx.getImageData(0, 0, ww, wh).data;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.globalCompositeOperation = "screen";
+
+  particles = [];
+  for(var i=0;i<ww;i+=Math.round(ww/150)){
+    for(var j=0;j<wh;j+=Math.round(ww/150)){
+      if(data[ ((i + j*ww)*4) + 3] > 150){
+        particles.push(new Particle(i,j));
+      }
+    }
+  }
+  amount = particles.length;
+
+}
+
+function onMouseClick(){
+  radius++;
+  if(radius ===5){
+    radius = 0;
+  }
+}
+
+function render(a) {
+  requestAnimationFrame(render);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  for (var i = 0; i < amount; i++) {
+    particles[i].render();
+  }
+};
+
+copy.addEventListener("keyup", initScene);
+window.addEventListener("resize", initScene);
+window.addEventListener("mousemove", onMouseMove);
+window.addEventListener("touchmove", onTouchMove);
+window.addEventListener("click", onMouseClick);
+window.addEventListener("touchend", onTouchEnd);
+initScene();
+requestAnimationFrame(render);
+// }
+
+// Navbar
+
+var nav = document.querySelector("navContainer");
+nav.textContent("hello");
+
+var width = window.innerWidth;
+console.log(width);
+
+</script>
+
+<!-- fontawsome -->
+
+<script src="https://kit.fontawesome.com/f937732390.js" crossorigin="anonymous"></script>
+
 </html>
