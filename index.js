@@ -93,3 +93,6 @@ app.post("/updatePrice", (req, res) => {
 app.listen(port, () => {
     console.log(`server running on port ${port}`);
 });
+
+app.use('/.netlify/functions/index', Router);
+module.exports.handler = Serverless(app);
