@@ -68,3 +68,14 @@
 .fPrice{
     font-size: var(--fontSize4);
 }
+@media only screen and (max-width: 600px) {
+    .winners{
+        flex-direction: column;
+    }
+    .priceContainer{
+        padding: 0;
+    }
+    .wname:not(.one){
+        margin: 0;
+    }
+}
