@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
     --headColor: #000;
     --headFontSize: 6rem;
@@ -9,53 +10,108 @@
     --headColPrimary: #ebeb00;
     --headColSecondary: #adad00;
     --fontFamSecond: 'Agbalumo', sans-serif;
-    --fontFamPrimary: 'Jost', sans-serif; /* for body */
-    --abtHeadFam: 'Poppins', sans-serif;   
+    --fontFamPrimary: 'Jost', sans-serif;
+    /* for body */
+    --abtHeadFam: 'Poppins', sans-serif;
 }
-.pointsContainer{
+
+.pointsContainer {
     background: transparent;
     position: relative;
     top: -25.0rem;
     color: #fff;
     padding: 5rem 0;
 }
-.pointsHead{
+
+.pointsHead {
     text-align: center;
     margin-bottom: 3rem;
     font-size: var(--fontSize2);
     color: var(--headColSecondary);
     font-family: var(--abtHeadFam);
 }
+
 .row {
     display: flex;
-    padding-left: 10rem;
+    /* padding-left: 10rem; */
 }
-.col{
+
+.col {
     text-align: center;
     font-size: var(--fontSize3);
     font-family: var(--fontFamPrimary);
 }
-.branch, .score {
+
+.branch,
+.score {
     padding-left: 10rem;
 }
+
 .score {
     margin-top: 1.1rem;
+}
+
+.bgimage {
+    background: url("/images/theyyam_edit.png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 62.9rem;
+    position: fixed;
+    z-index: -1;
+}
+.hamMenu{
+    display: none;
 }
 
 /* Resposive */
 
 @media only screen and (max-width: 600px) {
-    body{
+    body {
         overflow: scroll;
         overflow-x: hidden;
     }
-    .row{
+
+    .row {
         display: block;
         position: absolute;
         top: 15rem;
         left: -5rem;
     }
-    .col{
+
+    .col {
         margin-top: 3rem;
     }
-  }
+
+    .navContainer {
+        height: 100svh;
+        /* padding-top: 50px; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    .hamMenu{
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        position: absolute;
+        z-index: 2;
+    }
+    .hamMenu svg{
+        width: 13%;
+        padding: 10px 10px 0 0;
+        fill: #fff;
+    }
+    .navA{
+        padding: 0;
+    }
+    /* .pointsHead {
+        font-size: var(--fontSize3);
+    } */
+    .score{
+        padding-left: 3rem;
+        margin-top: 5px;
+    }
+}

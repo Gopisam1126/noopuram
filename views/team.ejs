@@ -1,227 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/styles/team.css">
-    <title>Team</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="/styles/team.css">
+  <title>Team</title>
 </head>
+
 <body>
-    <div class="headContainer teamsContainer">
-        <canvas id="scene"></canvas>
-        <input id="copy" hidden="text" value="NOOPURAM'23" />
+  <div class="bgimage">
+  </div>
+  <div class="hamMenu" onclick="openmenu()">
+    <svg xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+      <path
+        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+    </svg>
+  </div>
 
-        <!-- Coordinators -->
-
-        <div class="teamContainer">
-            <h1 class="teamHead">
-                Our Team
-            </h1>
-            <div class="members">
-                <div class="member">
-                    <img src="/images/roshith_cv.jpg" alt="" class="mem1 mem">
-                    <p class="name">Roshith CV</p>
-                    <p class="phNum">7907117175</p>
-                </div>
-                <div class="member">
-                    <img src="/images/anjana_vijay.jpg" alt="" class="mem1 mem">
-                    <p class="name">Anjana Vijay</p>
-                    <p class="phNum">9567090041</p>
-                </div>
-                <div class="member">
-                    <img src="/images/fathima_rahana_n.jpg" alt="" class="mem1 mem">
-                    <p class="name">Fathima Rahana N</p>
-                    <p class="phNum">8075540563</p>
-                </div>
-                <div class="member">
-                    <img src="/images/gayathri_C.jpg" alt="" class="mem1 mem">
-                    <p class="name">Gayathri C</p>
-                    <p class="phNum">7736748741</p>
-                </div>
-            </div>
-
-            <!-- developers -->
-
-            <h1 class="teamHead devHead">
-                Developers
-            </h1>
-            <div class="developerContainer">
-                <div class="developers">
-                    <div class="developer">
-                        <img src="/images/gopikrishnan.jpg" alt="" class="dev1 dev">
-                        <p class="name">Gopikrishnan S</p>
-                        <p class="phNum">7560978400</p>
-                    </div>
-                    <div class="developer">
-                        <img src="/images/pexels-cottonbro-studio-5378700.jpg" alt="" class="dev1 dev">
-                        <p class="name">Shivhari</p>
-                        <p class="phNum">7867589878</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+  <div class="">
         <!-- Navbar -->
 
-        <div class="navContainer nav2">
-            <a href="/" class="navA">
-                <li class="navLi">Home</li>
-            </a>
-            <a href="/events" class="navA">
-                <li class="navLi">Event</li>
-            </a>
-            <a href="/proshows" class="navA">
-                <li class="navLi">Proshows</li>
-            </a>
-            <a href="/team" class="navA">
-                <li class="navLi" style="color: #adad00;">Team</li>
-            </a>
-            <a href="/prices" class="navA">
-                <li class="navLi">Prices</li>
-            </a>
-            <a href="/gallery" class="navA">
-                <li class="navLi">Gallery</li>
-            </a>
+        <div class="navContainer" id="navLinks">
+          <a href="/" class="navA">
+            <li class="navLi">Home</li>
+          </a>
+          <a href="/events" class="navA">
+            <li class="navLi">Event</li>
+          </a>
+          <a href="/team" class="navA">
+            <li class="navLi" style="color: #adad00;">Team</li>
+          </a>
+          <a href="/prices" class="navA">
+            <li class="navLi">Prices</li>
+          </a>
         </div>
-        
+        <div id="content">
+    <canvas id="scene"></canvas>
+    <input id="copy" hidden="text" value="NOOPURAM'23" />
+
+    <!-- Coordinators -->
+
+    <div class="teamContainer">
+      <h1 class="teamHead">
+        Our Team
+      </h1>
+      <div class="members">
+        <div class="member">
+          <img src="/images/roshith_cv.jpg" alt="" class="mem1 mem">
+          <p class="name">Roshith CV</p>
+          <p class="phNum">7907117175</p>
+        </div>
+        <div class="member">
+          <img src="/images/anjana_vijay.jpg" alt="" class="mem1 mem">
+          <p class="name">Anjana Vijay</p>
+          <p class="phNum">9567090041</p>
+        </div>
+        <div class="member">
+          <img src="/images/fathima_rahana_n.jpg" alt="" class="mem1 mem">
+          <p class="name">Fathima Rahana N</p>
+          <p class="phNum">8075540563</p>
+        </div>
+        <div class="member">
+          <img src="/images/gayathri_C.jpg" alt="" class="mem1 mem">
+          <p class="name">Gayathri C</p>
+          <p class="phNum">7736748741</p>
+        </div>
+      </div>
+
+      <!-- developers -->
+
+      <h1 class="teamHead devHead">
+        Developers
+      </h1>
+      <div class="developerContainer">
+        <div class="developers">
+          <div class="developer">
+            <img src="/images/gopikrishnan.jpg" alt="" class="dev1 dev">
+            <p class="name">Gopikrishnan S</p>
+            <p class="phNum">7560978400</p>
+          </div>
+          <div class="developer">
+            <img src="/images/pexels-cottonbro-studio-5378700.jpg" alt="" class="dev1 dev">
+            <p class="name">Shivhari</p>
+            <p class="phNum">7867589878</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+
+  </div>
 </body>
 
 <script>
-    var canvas = document.querySelector("#scene"),
-  ctx = canvas.getContext("2d"),
-  particles = [],
-  amount = 0,
-  mouse = {x:0,y:0},
-  radius = 1;
-
-var colors = ["#fff","#fff", "#fff","#fff", "#fff"];
-
-var copy = document.querySelector("#copy");
-
-var ww = canvas.width = window.innerWidth;
-var wh = canvas.height = window.innerHeight;
-// if(ww > 550){
-function Particle(x,y){
-  this.x =  Math.random()*ww;
-  this.y =  Math.random()*wh;
-  this.dest = {
-    x : x,
-    y: y
-  };
-  if(ww<480){
-    this.r=0.4;
-  }
-  this.r =  Math.random()+ 2;
-  this.vx = (Math.random()-0.5)*50;
-  this.vy = (Math.random()-0.5)*50;
-  this.accX = 0;
-  this.accY = 0;
-  this.friction = Math.random()*0.008 + 0.94;
-
-  this.color = colors[Math.floor(Math.random()*6)];
-}
-
-Particle.prototype.render = function() {
-
-
-  this.accX = (this.dest.x - this.x)/1000;
-  this.accY = (this.dest.y - this.y)/1000;
-  this.vx += this.accX;
-  this.vy += this.accY;
-  this.vx *= this.friction;
-  this.vy *= this.friction;
-
-  this.x += this.vx;
-  this.y +=  this.vy;
-
-  ctx.fillStyle = this.color;
-  ctx.beginPath();
-  ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
-  ctx.fill();
-
-  var a = this.x - mouse.x;
-  var b = this.y - mouse.y;
-
-  var distance = Math.sqrt( a*a + b*b );
-  if(distance<(radius*70)){
-    this.accX = (this.x - mouse.x)/100;
-    this.accY = (this.y - mouse.y)/100;
-    this.vx += this.accX;
-    this.vy += this.accY;
-  }
-
-}
-
-function onMouseMove(e){
-  mouse.x = e.clientX;
-  mouse.y = e.clientY;
-}
-
-function onTouchMove(e){
-  if(e.touches.length > 0 ){
-    mouse.x = e.touches[0].clientX;
-    mouse.y = e.touches[0].clientY;
-  }
-}
-
-function onTouchEnd(e){
-mouse.x = -9999;
-mouse.y = -9999;
-}
-
-function initScene(){
-  ww = canvas.width = window.innerWidth;
-  wh = canvas.height = window.innerHeight;
-
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  ctx.font = "bold "+(ww/10)+"px sans-serif";
-  ctx.textAlign = "center";
-  ctx.fillText(copy.value, ww/2.2, wh/2);
-
-  var data  = ctx.getImageData(0, 0, ww, wh).data;
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.globalCompositeOperation = "screen";
-
-  particles = [];
-  for(var i=0;i<ww;i+=Math.round(ww/150)){
-    for(var j=0;j<wh;j+=Math.round(ww/150)){
-      if(data[ ((i + j*ww)*4) + 3] > 150){
-        particles.push(new Particle(i,j));
-      }
+    function openmenu() {
+    console.log("clicked")
+    var x = document.getElementById("navLinks");
+    var cnt = document.getElementById("content")
+    if (x.style.display === "flex") {
+      cnt.style.display = "block";
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+      cnt.style.display = "none";
     }
   }
-  amount = particles.length;
+  var canvas = document.querySelector("#scene"),
+    ctx = canvas.getContext("2d"),
+    particles = [],
+    amount = 0,
+    mouse = { x: 0, y: 0 },
+    radius = 1;
 
-}
+  var colors = ["#fff", "#fff", "#fff", "#fff", "#fff"];
 
-function onMouseClick(){
-  radius++;
-  if(radius ===5){
-    radius = 0;
+  var copy = document.querySelector("#copy");
+
+  var ww = canvas.width = window.innerWidth;
+  var wh = canvas.height = window.innerHeight;
+  // if(ww > 550){
+  function Particle(x, y) {
+    this.x = Math.random() * ww;
+    this.y = Math.random() * wh;
+    this.dest = {
+      x: x,
+      y: y
+    };
+    if (ww < 480) {
+      this.r = 0.4;
+    }
+    this.r = Math.random() + 2;
+    this.vx = (Math.random() - 0.5) * 50;
+    this.vy = (Math.random() - 0.5) * 50;
+    this.accX = 0;
+    this.accY = 0;
+    this.friction = Math.random() * 0.008 + 0.94;
+
+    this.color = colors[Math.floor(Math.random() * 6)];
   }
-}
 
-function render(a) {
+  Particle.prototype.render = function () {
+
+
+    this.accX = (this.dest.x - this.x) / 1000;
+    this.accY = (this.dest.y - this.y) / 1000;
+    this.vx += this.accX;
+    this.vy += this.accY;
+    this.vx *= this.friction;
+    this.vy *= this.friction;
+
+    this.x += this.vx;
+    this.y += this.vy;
+
+    ctx.fillStyle = this.color;
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
+    ctx.fill();
+
+    var a = this.x - mouse.x;
+    var b = this.y - mouse.y;
+
+    var distance = Math.sqrt(a * a + b * b);
+    if (distance < (radius * 70)) {
+      this.accX = (this.x - mouse.x) / 100;
+      this.accY = (this.y - mouse.y) / 100;
+      this.vx += this.accX;
+      this.vy += this.accY;
+    }
+
+  }
+
+  function onMouseMove(e) {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+  }
+
+  function onTouchMove(e) {
+    if (e.touches.length > 0) {
+      mouse.x = e.touches[0].clientX;
+      mouse.y = e.touches[0].clientY;
+    }
+  }
+
+  function onTouchEnd(e) {
+    mouse.x = -9999;
+    mouse.y = -9999;
+  }
+
+  function initScene() {
+    ww = canvas.width = window.innerWidth;
+    wh = canvas.height = window.innerHeight;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    ctx.font = "bold " + (ww / 10) + "px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(copy.value, ww / 2.2, wh / 2);
+
+    var data = ctx.getImageData(0, 0, ww, wh).data;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = "screen";
+
+    particles = [];
+    for (var i = 0; i < ww; i += Math.round(ww / 150)) {
+      for (var j = 0; j < wh; j += Math.round(ww / 150)) {
+        if (data[((i + j * ww) * 4) + 3] > 150) {
+          particles.push(new Particle(i, j));
+        }
+      }
+    }
+    amount = particles.length;
+
+  }
+
+  function onMouseClick() {
+    radius++;
+    if (radius === 5) {
+      radius = 0;
+    }
+  }
+
+  function render(a) {
+    requestAnimationFrame(render);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (var i = 0; i < amount; i++) {
+      particles[i].render();
+    }
+  };
+
+  copy.addEventListener("keyup", initScene);
+  window.addEventListener("resize", initScene);
+  window.addEventListener("mousemove", onMouseMove);
+  window.addEventListener("touchmove", onTouchMove);
+  window.addEventListener("click", onMouseClick);
+  window.addEventListener("touchend", onTouchEnd);
+  initScene();
   requestAnimationFrame(render);
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  for (var i = 0; i < amount; i++) {
-    particles[i].render();
-  }
-};
-
-copy.addEventListener("keyup", initScene);
-window.addEventListener("resize", initScene);
-window.addEventListener("mousemove", onMouseMove);
-window.addEventListener("touchmove", onTouchMove);
-window.addEventListener("click", onMouseClick);
-window.addEventListener("touchend", onTouchEnd);
-initScene();
-requestAnimationFrame(render);
-// }
+  // }
 
 </script>
 

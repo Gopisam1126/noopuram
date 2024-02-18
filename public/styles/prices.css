@@ -23,14 +23,14 @@
 .pnavContainer{
     display: flex;
     position: relative;
-    top: -50rem;
-    left: 60%;
+    top: -54rem;
+    left: 70%;
     width: fit-content;
     font-size: var(--fontSize4);
     /* color: #fff; */
 }
 .priceContainer{
-    padding: 0 0 0 12rem;
+    padding: 0 0 0 5rem;
     font-family: var(--fontFamPrimary);
 }
 .winnersHead{
@@ -67,4 +67,15 @@
 }
 .fPrice{
     font-size: var(--fontSize4);
+}
+@media only screen and (max-width: 600px) {
+    .winners{
+        flex-direction: column;
+    }
+    .priceContainer{
+        padding: 0;
+    }
+    .wname:not(.one){
+        margin: 0;
+    }
 }

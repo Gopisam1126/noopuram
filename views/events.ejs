@@ -1,181 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/header.css">
-    <!-- <link rel="stylesheet" href="/styles/styles.css"> -->
-    <link rel="stylesheet" href="/styles/events.css">
-    <title>noopuram</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="/styles/events.css">
+  <title>noopuram</title>
 </head>
+
 <body>
-    <div class="headContainer eventsContainer">
-        <canvas id="scene"></canvas>
-        <input id="copy" hidden="text" value="NOOPURAM'23" />
+  <div class="bgimage">
+  </div>
+  <div class="hamMenu" onclick="openmenu()">
+    <svg xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+      <path
+        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+    </svg>
+  </div>
 
-        <div class="navContainer">
-            <a href="/" class="navA">
-                <li class="navLi">Home</li>
-            </a>
-            <a href="/events" class="navA" style="color: #adad00;">
-                <li class="navLi">Event</li>
-            </a>
-            <a href="/proshows" class="navA">
-                <li class="navLi">Proshows</li>
-            </a>
-            <a href="/team" class="navA">
-                <li class="navLi">Team</li>
-            </a>
-            <a href="/prices" class="navA">
-                <li class="navLi">Prices</li>
-            </a>
-            <a href="/gallery" class="navA">
-                <li class="navLi">Gallery</li>
-            </a>
+  <div class="eventsContainer">
+    <div class="navContainer eNav" id="navLinks">
+      <a href="/" class="navA">
+        <li class="navLi">Home</li>
+      </a>
+      <a href="/events" class="navA" style="color: #adad00;">
+        <li class="navLi">Event</li>
+      </a>
+      <a href="/team" class="navA">
+        <li class="navLi">Team</li>
+      </a>
+      <a href="/prices" class="navA">
+        <li class="navLi">Prices</li>
+      </a>
+    </div>
+    <div id="content">
+      <canvas id="scene"></canvas>
+      <input id="copy" hidden="text" value="NOOPURAM'23" />
+      <h2 class="eventHead">Events</h2>
+      <div class="events">
+        <div class="offstage">
+          <h2>Off Stage Events</h2>
+          <ul>
+            <li>Collage</li>
+            <li>Poster making</li>
+            <li>Pencil drawing</li>
+            <li>Cartoon</li>
+            <li>water color</li>
+            <li>Face painting</li>
+            <li>Clay modelling</li>
+            <li>Spot photography</li>
+            <li>Oil painting</li>
+            <li>Embroidery</li>
+            <li>Wall painting</li>
+            <li>Essay writing (M, E, H, A, U, S, T)</li>
+            <li>Story writing (M, E, H, A, U, S, T)</li>
+            <li>Versification (M, E, H, A, U,S, T)</li>
+            <li>Elocution (M, E, H, A, U, S, T)</li>
+            <li>Recitation (M, E, H, A, S, U, T)</li>
+            <li>Debate (M, E, H)</li>
+            <li>Rangoli</li>
+            <li>Quiz</li>
+            <li>Aksharaslokam (M, S, A)</li>
+          </ul>
         </div>
+        <div class="onstage">
+          <h2>On Stage Events</h2>
+          <ul>
+            <li>Light Music (Male & Female)</li>
+            <li>Classical Music (Hindustani & Carnatic) [Male & Female]</li>
+            <li> Mappilappattu(Group)</li>
+            <li> Mappilappattu(Solo- Male&Female)</li>
+            <li> Group Song (Classical)</li>
+            <li> Group Song (Western)</li>
+            <li> Western Music (Solo) Folk Song (Group)</li>
+            <li> Semi Classical Song (Hindustani or Carnatic) Solo</li>
+            <li> Patriotic Song - Group - Malayalam</li>
+            <li> Vanchipaat (Group)</li>
+            <li> Kathakali sangeetham (Male&Female)</li>
+            <li> Ganamela</li>
+            <li> Recitation </li>
+            <li> Percussion Instruments (Classical) - Chenda/Idayka/Madhalam, Thabala/Pakavadhyam,
+              Mridangam/Ganjira/Gadam/Thavil</li>
+            <li> Percussion Instruments (Western) Tripple Drum, Jass</li>
+            <li> Stringed Instruments (Classical) Violin, Veena</li>
+            <li> Stringed Instruments (Western) Violin/ Bento/ Guitar/ Mandolin</li>
+            <li> Wind Instruments (Classical): Flute/ Bansuri/ Nadaswaram/ Harmonium</li>
+            <li> Wind Instruments (Western): Harmonium/ Accordion/ Clarinet/ Saxophone </li>
+            <li> Keyboard (Western)</li>
+            <li> Chendamelam (Group)</li>
+            <li> Panchavadhyam (Group)</li>
+            <li> Band Melam (Group)</li>
+            <li> Chenda (Thayambaka)</li>
+            <li> Madhalam (Group)</li>
+            <li> Kathakali (Male&Female) - Solo</li>
+            <li> Kathakali (Group)</li>
+            <li> Bharatanatyam (Solo)</li>
+            <li> Mohiniyattom (Solo)</li>
+            <li> Classical Dance (Kuchipudi/ Odissi/ Kathak/ Manipuri) Solo </li>
+            <li> Folk Dance (Male& Female) Solo</li>
+            <li> Thullal (Ottanthullal/ Parayanthullal/ Sheethankanthullal) (Solo)</li>
+            <li> Koodiyattom </li>
+            <li> Chakyarkoothu (Male)</li>
+            <li> Folk Dance (Group - Male, Group - Female)</li>
+            <li> Thiruvathirakali (Female only)</li>
+            <li> Kolkali</li>
+            <li> Duffmuttu</li>
+            <li> Oppana</li>
+            <li>Nangyarkoothu</li>
+            <li> Margamkali (Female)</li>
+            <li> Parichamuttu (Male)</li>
+            <li> Poorakali (Male)</li>
+            <li> Keralanadanam </li>
+            <li> Arabanamuttu</li>
+            <li> Vattapattu</li>
+            <li> Step n Synchro</li>
+            <li> Theme Dance</li>
+            <li> Nostalgia </li>
+            <li> Spot Dance</li>
+            <li> Fashion Show</li>
+            <li> Western Dance (Group)</li>
+            <li> Drama</li>
+            <li> Mime</li>
+            <li> Skit</li>
+            <li> Kadhaprasangam(F, M)</li>
+            <li> Mono Act(F, M)</li>
+            <li> Mimicry(F, M)</li>
+            <li>Gazal</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 
+  <div class="eventsListContainer">
+    <div class="table">
 
     </div>
-
-    <div class="eventsListContainer">
-        <div class="table">
-          
-        </div>
-    </div>
+  </div> -->
 </body>
 
 <script>
-    var canvas = document.querySelector("#scene"),
-  ctx = canvas.getContext("2d"),
-  particles = [],
-  amount = 0,
-  mouse = {x:0,y:0},
-  radius = 1;
 
-var colors = ["#fff","#fff", "#fff","#fff", "#fff"];
-
-var copy = document.querySelector("#copy");
-
-var ww = canvas.width = window.innerWidth;
-var wh = canvas.height = window.innerHeight;
-// if(ww > 550){
-function Particle(x,y){
-  this.x =  Math.random()*ww;
-  this.y =  Math.random()*wh;
-  this.dest = {
-    x : x,
-    y: y
-  };
-  if(ww<480){
-    this.r=0.4;
-  }
-  this.r =  Math.random()+ 2;
-  this.vx = (Math.random()-0.5)*50;
-  this.vy = (Math.random()-0.5)*50;
-  this.accX = 0;
-  this.accY = 0;
-  this.friction = Math.random()*0.008 + 0.94;
-
-  this.color = colors[Math.floor(Math.random()*6)];
-}
-
-Particle.prototype.render = function() {
-
-
-  this.accX = (this.dest.x - this.x)/1000;
-  this.accY = (this.dest.y - this.y)/1000;
-  this.vx += this.accX;
-  this.vy += this.accY;
-  this.vx *= this.friction;
-  this.vy *= this.friction;
-
-  this.x += this.vx;
-  this.y +=  this.vy;
-
-  ctx.fillStyle = this.color;
-  ctx.beginPath();
-  ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
-  ctx.fill();
-
-  var a = this.x - mouse.x;
-  var b = this.y - mouse.y;
-
-  var distance = Math.sqrt( a*a + b*b );
-  if(distance<(radius*70)){
-    this.accX = (this.x - mouse.x)/100;
-    this.accY = (this.y - mouse.y)/100;
-    this.vx += this.accX;
-    this.vy += this.accY;
-  }
-
-}
-
-function onMouseMove(e){
-  mouse.x = e.clientX;
-  mouse.y = e.clientY;
-}
-
-function onTouchMove(e){
-  if(e.touches.length > 0 ){
-    mouse.x = e.touches[0].clientX;
-    mouse.y = e.touches[0].clientY;
-  }
-}
-
-function onTouchEnd(e){
-mouse.x = -9999;
-mouse.y = -9999;
-}
-
-function initScene(){
-  ww = canvas.width = window.innerWidth;
-  wh = canvas.height = window.innerHeight;
-
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  ctx.font = "bold "+(ww/10)+"px sans-serif";
-  ctx.textAlign = "center";
-  ctx.fillText(copy.value, ww/2.2, wh/2);
-
-  var data  = ctx.getImageData(0, 0, ww, wh).data;
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.globalCompositeOperation = "screen";
-
-  particles = [];
-  for(var i=0;i<ww;i+=Math.round(ww/150)){
-    for(var j=0;j<wh;j+=Math.round(ww/150)){
-      if(data[ ((i + j*ww)*4) + 3] > 150){
-        particles.push(new Particle(i,j));
-      }
+  function openmenu() {
+    console.log("clicked")
+    var x = document.getElementById("navLinks");
+    var cnt = document.getElementById("content")
+    if (x.style.display === "flex") {
+      cnt.style.display = "block";
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+      cnt.style.display = "none";
     }
   }
-  amount = particles.length;
+  var canvas = document.querySelector("#scene"),
+    ctx = canvas.getContext("2d"),
+    particles = [],
+    amount = 0,
+    mouse = { x: 0, y: 0 },
+    radius = 1;
 
-}
+  var colors = ["#fff", "#fff", "#fff", "#fff", "#fff"];
 
-function onMouseClick(){
-  radius++;
-  if(radius ===5){
-    radius = 0;
+  var copy = document.querySelector("#copy");
+
+  var ww = canvas.width = window.innerWidth;
+  var wh = canvas.height = window.innerHeight;
+  // if(ww > 550){
+  function Particle(x, y) {
+    this.x = Math.random() * ww;
+    this.y = Math.random() * wh;
+    this.dest = {
+      x: x,
+      y: y
+    };
+    if (ww < 480) {
+      this.r = 0.4;
+    }
+    this.r = Math.random() + 2;
+    this.vx = (Math.random() - 0.5) * 50;
+    this.vy = (Math.random() - 0.5) * 50;
+    this.accX = 0;
+    this.accY = 0;
+    this.friction = Math.random() * 0.008 + 0.94;
+
+    this.color = colors[Math.floor(Math.random() * 6)];
   }
-}
 
-function render(a) {
+  Particle.prototype.render = function () {
+
+
+    this.accX = (this.dest.x - this.x) / 1000;
+    this.accY = (this.dest.y - this.y) / 1000;
+    this.vx += this.accX;
+    this.vy += this.accY;
+    this.vx *= this.friction;
+    this.vy *= this.friction;
+
+    this.x += this.vx;
+    this.y += this.vy;
+
+    ctx.fillStyle = this.color;
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
+    ctx.fill();
+
+    var a = this.x - mouse.x;
+    var b = this.y - mouse.y;
+
+    var distance = Math.sqrt(a * a + b * b);
+    if (distance < (radius * 70)) {
+      this.accX = (this.x - mouse.x) / 100;
+      this.accY = (this.y - mouse.y) / 100;
+      this.vx += this.accX;
+      this.vy += this.accY;
+    }
+
+  }
+
+  function onMouseMove(e) {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+  }
+
+  function onTouchMove(e) {
+    if (e.touches.length > 0) {
+      mouse.x = e.touches[0].clientX;
+      mouse.y = e.touches[0].clientY;
+    }
+  }
+
+  function onTouchEnd(e) {
+    mouse.x = -9999;
+    mouse.y = -9999;
+  }
+
+  function initScene() {
+    ww = canvas.width = window.innerWidth;
+    wh = canvas.height = window.innerHeight;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    ctx.font = "bold " + (ww / 10) + "px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(copy.value, ww / 2.2, wh / 2);
+
+    var data = ctx.getImageData(0, 0, ww, wh).data;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = "screen";
+
+    particles = [];
+    for (var i = 0; i < ww; i += Math.round(ww / 150)) {
+      for (var j = 0; j < wh; j += Math.round(ww / 150)) {
+        if (data[((i + j * ww) * 4) + 3] > 150) {
+          particles.push(new Particle(i, j));
+        }
+      }
+    }
+    amount = particles.length;
+
+  }
+
+  function onMouseClick() {
+    radius++;
+    if (radius === 5) {
+      radius = 0;
+    }
+  }
+
+  function render(a) {
+    requestAnimationFrame(render);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (var i = 0; i < amount; i++) {
+      particles[i].render();
+    }
+  };
+
+  copy.addEventListener("keyup", initScene);
+  window.addEventListener("resize", initScene);
+  window.addEventListener("mousemove", onMouseMove);
+  window.addEventListener("touchmove", onTouchMove);
+  window.addEventListener("click", onMouseClick);
+  window.addEventListener("touchend", onTouchEnd);
+  initScene();
   requestAnimationFrame(render);
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  for (var i = 0; i < amount; i++) {
-    particles[i].render();
-  }
-};
-
-copy.addEventListener("keyup", initScene);
-window.addEventListener("resize", initScene);
-window.addEventListener("mousemove", onMouseMove);
-window.addEventListener("touchmove", onTouchMove);
-window.addEventListener("click", onMouseClick);
-window.addEventListener("touchend", onTouchEnd);
-initScene();
-requestAnimationFrame(render);
-// }
+  // }
 
 </script>
 
