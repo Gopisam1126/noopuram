@@ -10,9 +10,16 @@
 <body>
   <div class="bgimage">
   </div>
+  <div class="hamMenu" onclick="openmenu()">
+    <svg xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+      <path
+        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+    </svg>
+  </div>
     <div class="">
           <!-- navbar -->
-    <div class="navContainer show">
+    <div class="navContainer show" id="navLinks">
       <a href="/" class="navA">
           <li class="navLi" style="color: #adad00;">Home</li>
       </a>
@@ -31,6 +38,7 @@
       <i class="fa-solid fa-xmark xShow closeBtn"></i> -->
   
     </div>
+    <div id="content">
         <canvas id="scene"></canvas>
         <input id="copy" hidden="text" value="NOOPURAM'23" />
 
@@ -38,7 +46,7 @@
         <div class="pointsContainer">
           <h2 class="pointsHead">Current Points</h2>
           <div class="row">
-              <div class="col">
+              <div class="col fd-row">
                   <h3 class="branch mech">Mech</h3>
                   <p class="score">
                       <% if (mechScore) { %>
@@ -46,7 +54,7 @@
                       <% } %>
                   </p>
               </div>
-              <div class="col">
+              <div class="col fd-row">
                   <h3 class="branch civil">Civil</h3>
                   <p class="score">
                       <% if (civilScore) { %>
@@ -54,7 +62,7 @@
                       <% } %>
                   </p>
               </div>
-              <div class="col">
+              <div class="col fd-row">
                   <h3 class="branch ec">EC</h3>
                   <p class="score">
                       <% if (ecScore) { %>
@@ -62,7 +70,7 @@
                       <% } %>
                   </p>
               </div>
-              <div class="col">
+              <div class="col fd-row">
                   <h3 class="branch EEE">EEE</h3>
                   <p class="score">
                       <% if (eeeScore) { %>
@@ -70,7 +78,7 @@
                       <% } %>
                   </p>
               </div>
-              <div class="col">
+              <div class="col fd-row">
                   <h3 class="branch cs">CS</h3>
                   <p class="score">
                       <% if (csScore) { %>
@@ -78,7 +86,7 @@
                       <% } %>
                   </p>
               </div>
-              <div class="col">
+              <div class="col fd-row">
                   <h3 class="branch ic">IC</h3>
                   <p class="score">
                       <% if (icScore) { %>
@@ -88,13 +96,25 @@
               </div>
           </div>
       </div>
-
+    </div>
   </div>
 
     <!--  -->
 
 </body>
 <script>
+    function openmenu() {
+    console.log("clicked")
+    var x = document.getElementById("navLinks");
+    var cnt = document.getElementById("content")
+    if (x.style.display === "flex") {
+      cnt.style.display = "block";
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+      cnt.style.display = "none";
+    }
+  }
     var canvas = document.querySelector("#scene"),
   ctx = canvas.getContext("2d"),
   particles = [],

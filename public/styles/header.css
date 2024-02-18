@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --headColor: #000;
     --headFontSize: 6rem;
@@ -13,12 +14,13 @@
     --headColPrimary: #ebeb00;
     --headColSecondary: #adad00;
     --fontFamSecond: 'Agbalumo', sans-serif;
-    --fontFamPrimary: 'Jost', sans-serif; /* for body */
-    --abtHeadFam: 'Poppins', sans-serif;   
+    --fontFamPrimary: 'Jost', sans-serif;
+    /* for body */
+    --abtHeadFam: 'Poppins', sans-serif;
 }
 
 /* ---------------------- */
-.headContainer{
+.headContainer {
     background: url("/images/theyyam_edit.png");
     background-position: center;
     background-size: cover;
@@ -26,11 +28,13 @@
     height: 62.9rem;
 
 }
-body{
+
+body {
     /* overflow: hidden; */
     overflow-x: hidden;
 }
-input{
+
+input {
     width: 250px;
     height: 40px;
     line-height: 40px;
@@ -43,9 +47,10 @@ input{
     font-family: arial;
     text-align: center;
     border: 1px solid white;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
-.navContainer{
+
+.navContainer {
     display: flex;
     /* position: absolute; */
     padding-top: 30px;
@@ -56,28 +61,34 @@ input{
     /* color: #fff; */
     justify-content: flex-end;
 }
-.navA{
+
+.navA {
     color: #fff;
     list-style: none;
     text-decoration: none;
     padding: 0 3rem 0 0;
     font-family: var(--abtHeadFam);
 }
-.navMenu{
+
+.navMenu {
     visibility: hidden;
 }
-.show{
+
+.show {
     visibility: visible;
 }
-.closeBtn{
+
+.closeBtn {
     color: #fff;
     visibility: hidden;
 }
-.showBtn{
+
+.showBtn {
     color: #fff;
     visibility: visible;
 }
-.bgimage{
+
+.bgimage {
     background: url("/images/theyyam_edit.png");
     background-position: center;
     background-size: cover;
@@ -86,10 +97,17 @@ input{
     position: fixed;
     z-index: -1;
 }
+
 /* responsive */
 
 @media only screen and (max-width: 600px) {
     .navA {
-        color: aqua;
+        /* color: aqua; */
+        font-size: var(--fontSize3);
+    }
+
+    .fd-row {
+        display: flex;
+        flex-direction: row;
     }
 }
