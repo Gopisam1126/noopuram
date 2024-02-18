@@ -35,6 +35,11 @@
     font-family: var(--abtHeadFam);
 }
 
+.eNav{
+    top: 5rem;
+    left: 70%;
+}
+
 .headItem {
     margin-left: 25rem;
     margin-top: rem;

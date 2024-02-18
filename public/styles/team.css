@@ -17,7 +17,7 @@
     --abtHeadFam: 'Poppins', sans-serif;   
 }
 .teamsContainer{
-    height: 400rem;
+    height: 0rem;
 }
 .teamContainer{
     color: #fff;
@@ -28,6 +28,7 @@
 .teamHead{
     font-size: var(--fontSize2);
     text-decoration: underline;
+    color: var(--headColPrimary);
 }
 .members{
     margin-top: 5rem;
@@ -50,20 +51,12 @@
     font-size: var(--fontSize4);
 }
 .headContainer{
-    height: 270rem;
-}
-.devHead{
-    margin-top: 5rem;
-}
-.developers{
-    display: block;
-}
-.developer{
-    margin-top: 7rem;
+    height: 130rem;
 }
 .nav2{
     position: absolute;
     top: 5rem;
+    left: 70%;
 }
 
 /* Responsive */
@@ -75,14 +68,5 @@
     .members{
         display: grid;
         grid-template-columns: 50rem 40rem;
-    }
-    .developers{
-        display: flex;
-    }
-    .developer{
-        margin-left: 23rem;
-    }
-    .headContainer{
-        height: 180rem;
     }
 }

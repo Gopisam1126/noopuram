@@ -23,8 +23,8 @@
 .pnavContainer{
     display: flex;
     position: relative;
-    top: -50rem;
-    left: 60%;
+    top: -54rem;
+    left: 70%;
     width: fit-content;
     font-size: var(--fontSize4);
     /* color: #fff; */

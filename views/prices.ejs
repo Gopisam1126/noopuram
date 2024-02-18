@@ -51,33 +51,32 @@
         Winners (on stage events)
       </h2>
 
-      <!-- winners div -->
-
-      <div class="winDiv">
-        <h4 class="eventHead">
-          1. Cartoon
-        </h4>
-        <div class="winners">
-          <!-- first price -->
-          <div class="one wname">
-            <p class="first">
-              <% if (fp) { %>
-                <span>
-                  <%= fp %>
-                </span>
-                <% } %>
-            </p>
-            <p class="fPrice">1<sup>st</sup> Price</p>
-          </div>
-          <!-- second price -->
-          <div class="two wname">
-            <p class="first">Alex Varghese</p>
-            <p class="fPrice">2<sup>nd</sup> Price</p>
-          </div>
-          <!-- third price -->
-          <div class="three wname">
-            <p class="first">Kifal Ahemmad</p>
-            <p class="fPrice">3<sup>rd</sup> Price</p>
+        <!-- winners div -->
+        
+        <div class="winDiv">
+          <h4 class="eventHead">
+            1. Cartoon
+          </h4>
+          <div class="winners">
+            <!-- first price -->
+            <div class="one wname">
+                <p class="first">
+                    <% if (locals.fp) { %>
+                        <span><%= fp %></span>
+                    <% } %>
+                </p>
+              <p class="fPrice">1<sup>st</sup> Price</p>
+            </div>
+            <!-- second price -->
+            <div class="two wname">
+              <p class="first">Alex Varghese</p>
+              <p class="fPrice">2<sup>nd</sup> Price</p>
+            </div>
+            <!-- third price -->
+            <div class="three wname">
+              <p class="first">Kifal Ahemmad</p>
+              <p class="fPrice">3<sup>rd</sup> Price</p>
+            </div>
           </div>
         </div>
       </div>

@@ -13,10 +13,10 @@ var icScore = 0;
 var eeeScore = 0;
 var ecScore = 0;
 var csScore = 0;
-let selectedValue;
-let fp;
-let sp;
-let tp;
+var selectedValue;
+var fp;
+var sp;
+var tp;
 // console.log(currentScore);
 // console.log(arr[0]);
 app.get("/", (req, res) => {
