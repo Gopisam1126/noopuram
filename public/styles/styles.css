@@ -28,7 +28,7 @@
 }
 .row {
     display: flex;
-    padding-left: 10rem;
+    /* padding-left: 10rem; */
 }
 .col{
     text-align: center;
@@ -40,6 +40,15 @@
 }
 .score {
     margin-top: 1.1rem;
+}
+.bgimage{
+    background: url("/images/theyyam_edit.png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 62.9rem;
+    position: fixed;
+    z-index: -1;
 }
 
 /* Resposive */

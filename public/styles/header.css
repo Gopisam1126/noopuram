@@ -47,13 +47,14 @@ input{
 }
 .navContainer{
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     padding-top: 30px;
     /* top: -120%; */
-    left: 57%;
-    width: fit-content;
+    /* left: 57%; */
+    /* width: fit-content; */
     font-size: var(--fontSize4);
     /* color: #fff; */
+    justify-content: flex-end;
 }
 .navA{
     color: #fff;

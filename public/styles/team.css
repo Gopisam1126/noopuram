@@ -74,7 +74,7 @@
     }
     .members{
         display: grid;
-        grid-template-columns: 65rem 40rem;
+        grid-template-columns: 50rem 40rem;
     }
     .developers{
         display: flex;
