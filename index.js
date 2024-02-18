@@ -4,6 +4,7 @@ import ServerlessHttp from "serverless-http";
 import { Router } from "express";
 
 const app = express();
+const router = express.Router
 const port = 3000;
 
 app.use(express.static("public"));
@@ -94,5 +95,5 @@ app.listen(port, () => {
     console.log(`server running on port ${port}`);
 });
 
-app.use('/.netlify/functions/index', Router);
-module.exports.handler = Serverless(app);
+// app.use('/.netlify/functions/index', routerouter);
+// module.exports.handler = Serverless(app);
