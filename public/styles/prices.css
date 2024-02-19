@@ -30,13 +30,13 @@
     /* color: #fff; */
 }
 .priceContainer{
-    padding: 0 0 0 5rem;
+    /* padding: 0 0 0 5rem; */
     font-family: var(--fontFamPrimary);
 }
 .winnersHead{
     text-align: center;
     color: var(--headColPrimary);
-    transform: translate(-4%);
+    /* transform: translate(-4%); */
     margin: 0 0 5rem 0;
     font-size: var(--fontSize3);
 }
@@ -47,13 +47,14 @@
     text-underline-offset: 0.8rem;
     margin: 0 0 3rem 0;
     text-align: center;
-    transform: translate(-5%);
+    /* transform: translate(-5%); */
 }
 .winners{
     display: flex;
-    padding-left: 2rem;
+    padding: 0 8rem 0 8rem;
     padding-bottom: 3rem;
     color: #fff;
+    justify-content: space-around;
 }
 .wname{
     text-align: center;
