@@ -69,6 +69,14 @@
 .fPrice{
     font-size: var(--fontSize4);
 }
+
+.footer{
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 1.5rem;
+}
+
 @media only screen and (max-width: 600px) {
     .winners{
         flex-direction: column;
