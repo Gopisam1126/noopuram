@@ -128,4 +128,29 @@ input {
     .headHr2{
         display: none;
     }
+
+    .s1{
+        position: relative;
+        left: 3rem;
+    }
+    .s2{
+        position: relative;
+        left: 4.3rem;
+    }
+    .s3{
+        position: relative;
+        left: 6.1rem;
+    }
+    .s4{
+        position: relative;
+        left: 4.75rem;
+    }
+    .s5{
+        position: relative;
+        left: 6.5rem;
+    }
+    .s6{
+        position: relative;
+        left: 7.5rem;
+    }
 }
