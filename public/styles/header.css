@@ -62,6 +62,16 @@ input {
     justify-content: flex-end;
 }
 
+.headHr{
+    margin-bottom: 5rem;
+    opacity: 0.5;
+}
+
+.headHr2{
+    opacity: 0.5;
+    margin-top: 5rem;
+}
+
 .navA {
     color: #fff;
     list-style: none;
@@ -109,5 +119,13 @@ input {
     .fd-row {
         display: flex;
         flex-direction: row;
+    }
+
+    .headHr{
+        display: none;
+    }
+    
+    .headHr2{
+        display: none;
     }
 }
