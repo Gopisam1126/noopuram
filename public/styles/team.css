@@ -16,16 +16,17 @@
     --fontFamPrimary: 'Jost', sans-serif; /* for body */
     --abtHeadFam: 'Poppins', sans-serif;   
 }
-.teamsContainer{
+/* .teamsContainer{
     height: 0rem;
     
-}
-/* .tmainContainer {
+} */
+.tmainContainer {
     width: fit-content;
-    filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 0.5rem;
     margin-left: 6%;
-} */
+}
 .teamContainer{
     color: #fff;
     margin-top: -15rem;
@@ -81,8 +82,20 @@
     body{
         overflow-y: scroll;
     }
+    .teamContainer{
+        padding-left: 5%;
+    }
     .members{
         display: grid;
         grid-template-columns: 65rem 40rem;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .members{
+        grid-template-columns: 55rem 40rem
+    }
+    .teamContainer{
+        padding-left: 0;
     }
 }
