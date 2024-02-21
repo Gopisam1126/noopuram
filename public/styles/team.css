@@ -18,17 +18,26 @@
 }
 .teamsContainer{
     height: 0rem;
+    
 }
+/* .tmainContainer {
+    width: fit-content;
+    filter: blur(8px);
+    border-radius: 0.5rem;
+    margin-left: 6%;
+} */
 .teamContainer{
     color: #fff;
     margin-top: -15rem;
     text-align: center;
-    font-family: var(--fontFamPrimary);
+    font-family: var(--fontFamPrimary);;
 }
 .teamHead{
     font-size: var(--fontSize2);
     text-decoration: underline;
-    color: var(--headColPrimary);
+    color: #fff;
+    padding-top: 2rem;
+    z-index: 1
 }
 .members{
     margin-top: 5rem;

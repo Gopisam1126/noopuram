@@ -88,7 +88,7 @@ app.post("/updatePrice", (req, res) => {
     console.log(sp);
     console.log(tp);
     console.log(selectedValue);
-    res.redirect("/prices");
+    res.redirect("/admin");
 })
 
 app.listen(port, () => {
