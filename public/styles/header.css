@@ -160,4 +160,14 @@ input {
         position: relative;
         left: 7.5rem;
     }
+
+    .footer{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top: 4rem;
+        color: #fff;
+        opacity: 0.7;
+    }
+
 }
