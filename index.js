@@ -58,7 +58,7 @@ app.get("/proshows", (req, res) => {
     res.render("proshows.ejs")
 });
 
-app.get("/admin", (req, res) => {
+app.get("/gks", (req, res) => {
     res.render("admin.ejs");
 });
 
@@ -76,7 +76,7 @@ app.post("/update", (req, res) => {
     ecScore = newScoreEC;
     csScore = newScoreCS
 
-    res.redirect("/admin");
+    res.redirect("/gks");
 });
 
 app.post("/updatePrice", (req, res) => {
