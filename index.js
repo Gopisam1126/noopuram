@@ -1,12 +1,12 @@
 import express from "express";
 import bodyParser from "body-parser";
+import fs from 'fs';
 // import ServerlessHttp from "serverless-http";
 // import { Router } from "express";
 
 const app = express();
 const router = express.Router
 const port = 3000;
-
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -46,11 +46,16 @@ app.get("/team", (req, res) => {
 });
 
 app.get("/prices", (req, res) => {
-    res.render("prices.ejs", {
-        selectedValue: selectedValue,
-        fp: fp,
-        sp: sp,
-        tp: tp,
+    const eventData = JSON.parse(fs.readFileSync('data.json', 'utf8'));
+
+    res.render('prices.ejs', { events: eventData }, (err, html) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Internal Server Error');
+            return;
+        }
+        // Send the rendered HTML as the response
+        res.send(html);
     });
 });
 
