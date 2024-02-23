@@ -463,6 +463,125 @@
         "Bhagyasree N(EEE)",
         "Aishwarya S(CS)\nK V Sarada(EEE)"
     ]
+},
+{
+  "eventName": "Poorakali",
+  "winners": [
+      "Adithya And Team(ME)",
+      "Ajay And Team(EEE)",
+      "NILL"
+  ]
+},
+{
+  "eventName": "English Drama",
+  "winners": [
+      "Sumod K And Team(ME)",
+      "Ardra A And Team(CS)",
+      "Uma devi And Team(EEE)"
+  ]
+},
+{
+  "eventName": "Parichamuttu",
+  "winners": [
+      "Vishnu S And Team(EEE)",
+      "Abhijith M And Team(ME)\nAbhishek S And Team(CS)"
+  ]
+},
+{
+  "eventName": "Classical Song Boys",
+  "winners": [
+      "Midhun Ramkumar(EEE)",
+      "Prathyush P(EC)",
+      "Sangeeth Madhav(EC)"
+  ]
+},
+{
+  "eventName": "Classical song (Girls)",
+  "winners": [
+      "Sreelakshmi P K(EC)",
+      "Malavika Sunil(EEE)",
+      "K V Sarada(EEE)"
+  ]
+},
+{
+  "eventName": "Poem Recitation(Arabic)",
+  "winners": [
+      "Shana shirin(IC)",
+      "Mufeedha (EEE)",
+      "Shiras Rahman U(CS)"
+  ]
+},
+{
+  "eventName": "Poem Recitation(Urudu)",
+  "winners": [
+      "Parvathy madhusudhanan(EC)",
+      "Showkat ayoub(CS)",
+      "Shujaat hussain(CS)"
+  ]
+},
+{
+  "eventName": "Poem recitation Hindi",
+  "winners": [
+      "Megha M(EC)\nTanya Sanjeev Nair(EC)",
+      "Amritha CP(CE)",
+      "Brighty Jobin(CS)"
+  ]
+},
+{
+  "eventName": "Semi Classical Boys",
+  "winners": [
+      "S Sagar Krishna(EC)",
+      "Sangeeth Madhav T(EC)",
+      "Midhun Ramakumar(EE)"
+  ]
+},
+{
+  "eventName": "Semi Classical Girls",
+  "winners": [
+      "Aswini Anilkumar(CS)",
+      "Devapriya Rajan(CE)",
+      "Tanya Sanjeev(EC)"
+  ]
+},
+{
+  "eventName": "Gazal",
+  "winners": [
+      "Midhun Ramakumar(EEE)",
+      "Gopika P R (EEE)",
+      "NILL"
+  ]
+},
+{
+  "eventName": "Folk song",
+  "winners": [
+      "Varsha And Team(EC)",
+      "Karthik And Team(CS)",
+      "Sneha T And Team(CE)"
+  ]
+},
+{
+  "eventName": "Malayalam Drama",
+  "winners": [
+      "Adil S And Team(EEE)",
+      "Sumod K And Team (ME)\nSmitha M And Team(EC)",
+      "Nayana S And Team(CE)"
+  ]
+},
+{
+  "eventName": "Ganamela",
+  "winners": [
+      "Parvathi(EC)",
+      "Arjun Vinod(ME)",
+      "Arathy(EEE)"
+  ]
+},
+{
+  "eventName": "Mime",
+  "winners": [
+      "Amith And Team(IC)",
+      "Akash And Team(CS)",
+      "Devika And Team(EC)"
+  ]
 }
 
 ]
