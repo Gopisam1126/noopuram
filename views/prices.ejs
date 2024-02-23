@@ -48,12 +48,15 @@
 
       <!-- prices section -->
       <div class="priceContainer">
-        <h2 class="winnersHead">Winners (Off Stage Events)</h2>
+        <h2 class="winnersHead">Winners (Day 1)</h2>
         
         <% events.forEach((event, index) => { %>
           <div class="winDiv">
-            <% if (index === 63) { %>
-              <h2 class="winnersHead">Winners (ON stage events)</h2>
+            <% if (index === 16) { %>
+              <h2 class="winnersHead">Winners (Day 2)</h2>
+            <% } %>
+            <% if (index === 42) { %>
+              <h2 class="winnersHead">Winners (Day 3)</h2>
             <% } %>
             <h4 class="eventHead"><%= event.eventName %></h4>
             <div class="winners">

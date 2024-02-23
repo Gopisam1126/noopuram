@@ -1,1218 +1,468 @@
 [
   {
-      "eventName": "Collage",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Poster making",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Pencil drawing",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Cartoon",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "water color",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Face painting",
-      "winners": [
-          "Bibindas(ME)",
-          "Akash K(IC)",
-          "Nandana S(CE)\nDevisree(EC)"
-      ]
-  },
-  {
-      "eventName": "Clay modelling",
-      "winners": [
-          "Anjali TS(CE)",
-          "Sumod K(ME)",
-          "Bhavana V(ME)"
-      ]
-  },
-  {
-      "eventName": "Spot photography",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Oil painting",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Embroidery",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wall painting",
-      "winners": [
-          "Anagha K And Team(CS)",
-          "Ruby And Team(CE)",
-          "Bibindas And Team(ME)"
-      ]
-  },
-  {
-      "eventName": "Essay writing (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Essay writing (E)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Rangoli",
+    "winners": [
+      "Sruthi(IC)",
+      "Anjali TS (CE)",
+      "Akash K(IC)"
+    ]
+  },
+  {
+    "eventName": "Face Painting",
+    "winners": [
+      "Bibindas(ME)",
+      "Akash K(IC)",
+      "Nandana S(CE)\nDevisree(EC)"
+    ]
+  },
+  {
+    "eventName": "Short Story Writing (Arabic)",
+    "winners": [
+      "Fathima Fahima(EC)",
+      "Mubarisha KS (EEE)",
+      "Mohammed Riyas(EEE)\nMidlaj MK(CS)"
+    ]
+  },
+  {
+    "eventName": "Short Story Writing (Urdu)",
+    "winners": [
+      "Amal Sidan E P(CS)",
+      "Shujaat Hussain(CS)",
+      "Asiyamol(EEE)"
+    ]
+  },
+  {
+    "eventName": "Elocution (English)",
+    "winners": [
+      "Nandana Jayakumar(EEE)",
+      "Ashok R(CS)",
+      "Thejaswini(CS)"
+    ]
+  },
+  {
+    "eventName": "Elocution (Malayalam)",
+    "winners": [
+      "Bhavya R(CS)",
+      "Riyan J (ME)",
+      "Madhumitha Haridas(EEE)"
+    ]
+  },
+  {
+    "eventName": "Elocution (Urdu)",
+    "winners": [
+      "Shujaat Hussain(CS)",
+      "Showkat Ayoub(CS)",
+      "P Sinan Muhammad(ME)"
+    ]
+  },
+  {
+    "eventName": "Quiz",
+    "winners": [
+      "Arjun Vinod And Team(ME)",
+      "Aditya Narayanan And Team(IC)",
+      "Ashok R And Team(CS)"
+    ]
+  },
+  {
+    "eventName": "Elocution (Arabic)",
+    "winners": [
+      "Midlaj M K (CS)",
+      "Mubashira KS (EEE)",
+      "Basith Mohamed(ME)"
+    ]
+  },
+  {
+    "eventName": "Embroidery",
+    "winners": [
+      "Mufeedha (EEE)",
+      "Nandhana E D (ME)",
+      "Praseetha K (EEE)\nAnjana K K (CE)"
+    ]
+  },
+  {
+    "eventName": "Essay Writing (Tamil)",
+    "winners": [
+      "Aiswarya S(CS)",
+      "Hari A(ME)",
+      "Karthik S(CE)"
+    ]
+  },
+  {
+    "eventName": "Just A Minute",
+    "winners": [
+      "Riyan J (ME)",
+      "Abhisek A(CS)",
+      "Reneto Noble(CS)"
+    ]
+  },
+  {
+    "eventName": "Elocution (Sanskrit)",
+    "winners": [
+      "Sandra V(CS)",
+      "Bhavya R(CS)",
+      "NILL"
+    ]
   },
   {
-      "eventName": "Essay writing (H)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Elocution (Hindi)",
+    "winners": [
+      "Vaibhav(ME)",
+      "Arjun Suresh(CS)",
+      "Bhavya R(CS)"
+    ]
   },
   {
-      "eventName": "Essay writing ( A)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Elocution (Tamil)",
+    "winners": [
+      "Mahesh M (CS)",
+      "K F Shahul Hameed(CE)",
+      "Sruthi Sheshadari(IC)"
+    ]
   },
   {
-      "eventName": "Essay writing (U)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Debate English",
+    "winners": [
+      "S Dev Bhaskar And Team (ME)",
+      "Aswany Prasad And Team(CE)",
+      "Anurudh And Team(EC)"
+    ]
   },
   {
-      "eventName": "Essay writing (S)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Chenda",
+    "winners": [
+      "Harisankar(IC)",
+      "Navnit Jayaprakash(ME)",
+      "Karthik Krishna S(CS)\nAdhith R(EC)"
+    ]
   },
   {
-      "eventName": "Essay writing (T)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Idaykka",
+    "winners": [
+      "Manish M (IC)",
+      "NILL",
+      "NILL"
+    ]
   },
   {
-      "eventName": "Story writing (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Kavyakeli",
+    "winners": [
+      "Jismariya Johnson(CS)",
+      "NILL",
+      "NILL"
+    ]
   },
   {
-      "eventName": "Story writing (E)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Mehandi",
+    "winners": [
+      "Asma N(IC)",
+      "Subana (CS)",
+      "Bincy (CE)"
+    ]
   },
   {
-      "eventName": "Story writing (H)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Clay Modelling",
+    "winners": [
+      "Anjali TS(CE)",
+      "Sumod K(ME)",
+      "Bhavana V(ME)"
+    ]
   },
   {
-      "eventName": "Story writing (A)",
-      "winners": [
-          "Fathima(EC)",
-          "Mubarisha KS(EEE)",
-          "Mohammed Riyas(EEE)\n                Midlaj MK(CS)"
-      ]
+    "eventName": "Aksharaslokam",
+    "winners": [
+      "Vedasree(CS)",
+      "Keerthana Pradeep(CE)",
+      "Venkatesh(EEE)"
+    ]
   },
   {
-      "eventName": "Story writing (U)",
-      "winners": [
-          "Amal Sidhan(CS)",
-          "Shujaat Hussain(CS)",
-          "Asiyamol(EEE)"
-      ]
+    "eventName": "Wall Painting",
+    "winners": [
+      "Anagha K And Team(CS)",
+      "Ruby Nihala And Team(CE)",
+      "Bibindas And Team(ME)"
+    ]
   },
   {
-      "eventName": "Story writing (S)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Group Song Indian",
+    "winners": [
+      "Sangeetha And Team(EC)",
+      "Midhun And Team(EEE)",
+      "Devika And Team(CE)"
+    ]
   },
   {
-      "eventName": "Story writing (T)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Tabala",
+    "winners": [
+      "Navneeth Jayaprakash(ME)",
+      "Shyam Mohan(EEE)",
+      "NILL"
+    ]
   },
   {
-      "eventName": "Versification (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Folk Dance Boys",
+    "winners": [
+      "Akshay C S And Team(CE)",
+      "Ashok And Team(CS)",
+      "NILL"
+    ]
   },
   {
-      "eventName": "Versification (E)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Folk Dance Girls",
+    "winners": [
+      "Swarna N T and team(CS)",
+      "Arya N and team(CE)",
+      "Sneha S and team (EEE)\nHima Rajan and team (CE)"
+    ]
   },
   {
-      "eventName": "Versification (H)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Drama Hindi",
+    "winners": [
+      "Vinil Nair And Team(ME)",
+      "Sam And Team(EC)",
+      "Anjana S And Team(CS)"
+    ]
   },
   {
-      "eventName": "Versification (A)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Bharatanatyam",
+    "winners": [
+      "Pavithra Anna Lalu(EC)\nMalavika S(CS)",
+      "Parvikrishnan(EEE)",
+      "Nivedita Menon(EC)"
+    ]
   },
   {
-      "eventName": "Versification (U)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
+    "eventName": "Group Song Western",
+    "winners": [
+      "P V Aryangana And Team(EC)",
+      "Parvati Manoj And Team(CS)",
+      "Rumjum And Team(CE)"
+    ]
   },
   {
-      "eventName": "Versification (S)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Versification (T)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Elocution (M)",
-      "winners": [
-          "Bhavya R(CS)",
-          "Riyan J(ME)",
-          "Madhumitha Haridas(EEE)"
-      ]
-  },
-  {
-      "eventName": "Elocution (E)",
-      "winners": [
-          "Nandana Jayakumar(EEE)",
-          "Ashok R(CS)",
-          "Thejaswini(CS)"
-      ]
-  },
-  {
-      "eventName": "Elocution (H)",
-      "winners": [
-          "Vaibhav(ME)",
-          "Arjun Suresh(CS)",
-          "Bhavya R(CS)"
-      ]
-  },
-  {
-      "eventName": "Elocution (A)",
-      "winners": [
-          "Midlaj MK(CS)",
-          "Mubashira KS(EEE)",
-          "Basith Mohamed(ME)"
-      ]
-  },
-  {
-      "eventName": "Elocution (U)",
-      "winners": [
-          "Shujaat Hussain(CS)",
-          "Showkat Ayoub(CS)",
-          "P Sinan Muhammad(ME)"
-      ]
-  },
-  {
-      "eventName": "Elocution (S)",
-      "winners": [
-          "Sandra V(CS)",
-          "Bhavya R (CS)",
-          "NIL"
-      ]
-  },
-  {
-      "eventName": "Elocution (T)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Recitation (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Recitation (E)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Recitation (H)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Recitation (A)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Recitation (S)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Recitation (U)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Recitation (T)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Debate (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Debate (E)",
-      "winners": [
-          "Dev Bhaskar And Team(ME)",
-          "Aswany Prasad And team(CE)",
-          "Anurudh And team(EC)"
-      ]
-  },
-  {
-      "eventName": "Debate (H)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Rangoli",
-      "winners": [
-          "Sruthi(IC)",
-          "Anjali TS(CE)",
-          "Akash K(IC)"
-      ]
-  },
-  {
-      "eventName": "Quiz",
-      "winners": [
-          "Arjun Vinod And Team(ME)",
-          "Aditya Narayanan And Team(IC)",
-          "Ashok R And Team(CS)"
-      ]
-  },
-  {
-      "eventName": "Aksharaslokam (M)",
-      "winners": [
-          "Vedasree (CS)",
-          "Keerthana(CE)",
-          "Venkatesh(EEE)"
-      ]
-  },
-  {
-      "eventName": "Aksharaslokam (S)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Aksharaslokam (A)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Light Music (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Light Music (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Music (Hindustani) (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Music (Hindustani) (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Music (carnatic) (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Music (carnatic) (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mappilappattu (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mappilappattu (solo) (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mappilappattu (solo) (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Group Song (classical)",
-      "winners": [
-          "Sangeetha And Team(EC)",
-          "Midhun And Team(EEE)",
-          "Devika TS And Team(CE)"
-      ]
-  },
-  {
-      "eventName": "Group Song (western)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Western Music (solo)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Folk song (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Semi Classical Song (Hindustani)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Semi Classical Song (carnatic)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Patriotic Song (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Vanchipaat (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Kathakali sangeetham (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Kathakali sangeetham (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Ganamela",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Recitation",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (chenda)",
-      "winners": [
-          "Harisankar(IC)",
-          "Navnit Jayaprakash(ME)",
-          "Karthik(CS)  Adhith(EC)"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (Idayka)",
-      "winners": [
-          "Manish M(IC)",
-          "NIL",
-          "NIL"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (Madhalam)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (Thabala)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (Pakavadhyam)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (Mridangam)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (Ganjira)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (Gadam)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (classical) (Thavil)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (western) (Triple Drum)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Percussion Instruments (western) (Jazz)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Stringed Instruments (Classical) (veena)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Stringed Instruments (Classical) (violin)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Stringed Instruments (Western) (violin)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Stringed Instruments (Western) (Bento)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Stringed Instruments (Western) (Guitar)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Stringed Instruments (Western) (Mandolin)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wind Instruments (Classical) (Flute)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wind Instruments (Classical) (Bansuri)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wind Instruments (Classical) (Nadaswaram)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wind Instruments (Classical) (Harmonium)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wind Instruments (western) (Harmonium)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wind Instruments (western) (Accordion)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wind Instruments (western) (Clarinet)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Wind Instruments (western) (Saxophone)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Keyboard (Western)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Chendamelam (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Panchavadhyam (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Band Melam (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Chenda (Thayambaka)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Madhalam (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Kathakali (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Kathakali (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Kathakali (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Bharatanatyam (Solo)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mohiniyattom (Solo)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Dance (Kuchipudi)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Dance (Odissi)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Dance (Kathak)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Dance (Manipuri)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Classical Dance (solo)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Folk Dance (M) (solo)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Folk Dance (F) (solo)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Thullal (Ottanthullal)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Thullal (Parayanthullal)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Thullal (Sheethankanthullal)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Koodiyattom",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Chakyarkoothu (Male)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Folk Dance (M) (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Folk Dance (F) (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Thiruvathirakali (Female only)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Kolkali",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Duffmuttu",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Oppana",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Nangyarkoothu",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Margamkali (Female)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Parichamuttu (Male)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Poorakali (Male)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Keralanadanam",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Arabanamuttu",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Vattapattu",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Step n Synchro",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Theme Dance",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Nostalgia",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Spot Dance",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Fashion Show",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Western Dance (Group)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Drama",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mime",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Skit",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Kadhaprasangam (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Kadhaprasangam (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mono Act (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mono Act (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mimicry (M)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Mimicry (F)",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  },
-  {
-      "eventName": "Gazal",
-      "winners": [
-          "TBD",
-          "TBD",
-          "TBD"
-      ]
-  }
+    "eventName": "Violin Eastern",
+    "winners": [
+      "Arjun Vinod(ME)",
+      "Jose Leo Ittop(EC)",
+      "Vaishnav K V(EE)"
+    ]
+  },
+  {
+    "eventName": "Flute",
+    "winners": [
+      "Nidhin R Krishnan(EEE)",
+      "Abhiram Biju(EEE)",
+      "Amruthavarshan P H(EEE)"
+    ]
+  },
+  {
+    "eventName": "Thiruvathira",
+    "winners": [
+      "Aswathi R And Team(CE)",
+      "Anjali M And Team(CE)\nAnjana And Team(EC)",
+      "Riya S And Team (CS)"
+    ]
+  },
+  {
+    "eventName": "Kadhaprasangam",
+    "winners": [
+      "Neeraja Rajeev(IC)",
+      "Bhavya R (CS)",
+      "Kalyani (IC)"
+    ]
+  },
+  {
+    "eventName": "Harmonium",
+    "winners": [
+      "Malavika Suni(EEE)",
+      "Unnimaya K (CS)",
+      "Anyukth(ME)"
+    ]
+  },
+  {
+    "eventName": "Theme Dance",
+    "winners": [
+      "Kavya S And Team(CS)",
+      "Gangadevi And Team(CE)",
+      "Hima And Team(CE)\nNitha And Team(EC)"
+    ]
+  },
+  {
+    "eventName": "Bansuri",
+    "winners": [
+      "Abiram Biju(EEE)",
+      "Amritavarshan(EE)",
+      "Navneeth P (EE)"
+    ]
+  },
+  {
+    "eventName": "Drama Sanskrit",
+    "winners": [
+      "Kalyani and team(IC)",
+      "Anjana S and team(CS)",
+      "Angeetha and team(CE)"
+    ]
+  },
+  {
+    "eventName": "Kuchipudi",
+    "winners": [
+      "Parveekrishna S(EEE)",
+      "Malavika S(CS)",
+      "Uthara R(EEE)\nAishwarya Unni(IC)"
+    ]
+  },
+  {
+    "eventName": "Kolkali",
+    "winners": [
+      "Ajay S And Team(CE)",
+      "Gautham And Team(IC)",
+      "Febinsha And Team(ME)"
+    ]
+  },
+  {
+    "eventName": "Mappilapattu Girls",
+    "winners": [
+      "Parvathi (EC)",
+      "Shana Shirin(IC)",
+      "Malavika Sunil(EEE)\nHanna Niha T(CS)"
+    ]
+  },
+  {
+    "eventName": "Mappilapattu Boys",
+    "winners": [
+      "Mohamed Noufal(ME)",
+      "Ibrahim Badusha(EEE)",
+      "MD Adarsh(EC)\nShafaf A S(CE)"
+    ]
+  },
+  {
+    "eventName": "Margamkali",
+    "winners": [
+        "Krishna P And Team(CE)",
+        "Aleena And Team(CS)",
+        "Savithri And Team(IC)\nBhavya And Team(EEE)"
+    ]
+},
+{
+    "eventName": "Monoact",
+    "winners": [
+        "Neeraja(IC)",
+        "Devna Anil(EEE)",
+        "Kalyani M(IC)"
+    ]
+},
+{
+    "eventName": "Mimicry",
+    "winners": [
+        "Visagh R(ME)",
+        "Sooraj S(EEE)",
+        "Dilshad M(EC)"
+    ]
+},
+{
+    "eventName": "Vanchipattu",
+    "winners": [
+        "Vyshakh M(ME)",
+        "Devika(CE)",
+        "Ajith Raj(EEE)"
+    ]
+},
+{
+    "eventName": "Poem Recitation(Malayalam)",
+    "winners": [
+        "Aswany Anilkumar(CS)",
+        "Megha(CE)",
+        "Sreelakshmi P K(EC)\nKrishna P(CE)"
+    ]
+},
+{
+    "eventName": "English Poem Recitation",
+    "winners": [
+        "Minna (EC)",
+        "Aswand C(CE)\nHisana(ME)",
+        "Priyanka Sujith(EC)"
+    ]
+},
+{
+    "eventName": "Western Song Boys",
+    "winners": [
+        "Nyato Kaye(CE)",
+        "Athul Krishna(EC)",
+        "Abhigith Nandakumar(CS)\nAshwin P K(ME)"
+    ]
+},
+{
+    "eventName": "Western Song Girls",
+    "winners": [
+        "Vishnupriya(CE)",
+        "Anju Nivedha(EEE)",
+        "Deena Mary Johnson(CS)"
+    ]
+},
+{
+    "eventName": "English Skit",
+    "winners": [
+        "Manish And Team(IC)",
+        "Jesika And Team(CE)",
+        "Anjana S And Team(CS)"
+    ]
+},
+{
+    "eventName": "Kadhakali Sangeetham Girls",
+    "winners": [
+        "Arathy V G(EE)",
+        "Sivapriya(CE)",
+        "Nima R(EE)"
+    ]
+},
+{
+    "eventName": "Kadhakali Sangeetham Boys",
+    "winners": [
+        "Niranjan M(ME)",
+        "Manish M(IC)",
+        "NILL"
+        
+    ]
+},
+{
+    "eventName": "Malayalam Skit",
+    "winners": [
+        "Sayana And Team(CS)",
+        "Avin And Team(EEE)",
+        "Christo And Team(ME)"
+    ]
+},
+{
+    "eventName": "Poem Recitation(Sanskrit)",
+    "winners": [
+        "Karthika Bijith(EC)",
+        "Sreeharini J(CS)",
+        "Krithyaja(CS)\nSivani K(EEE)"
+    ]
+},
+{
+    "eventName": "Light Music Girls",
+    "winners": [
+        "Sreelakshmi P K(EC)",
+        "Parvathi Madhusudhanan(EC)",
+        "Malavika Sunil(EEE)"
+    ]
+},
+{
+    "eventName": "Light Music Boys",
+    "winners": [
+        "Midhun Ramakumar C V(EEE)",
+        "Saurabh Sasikumar(EEE)",
+        "Sangeeth Madhav T(EC)"
+    ]
+},
+{
+    "eventName": "Poem Recitation Tamil",
+    "winners": [
+        "Riya S(CS)",
+        "Bhagyasree N(EEE)",
+        "Aishwarya S(CS)\nK V Sarada(EEE)"
+    ]
+}
+
 ]
